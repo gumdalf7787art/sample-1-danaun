@@ -3,7 +3,7 @@ export default {
   async redirects() {
     return [{
       source: '/opengraph-image',
-      destination: '/images/reset-regen-share-v1.jpg',
+      destination: '/images/danaun-walking.png',
       permanent: true,
     }];
   },

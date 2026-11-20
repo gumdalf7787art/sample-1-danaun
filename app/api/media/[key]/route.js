@@ -1,2 +1,0 @@
-import {mediaStore} from '../../../../lib/insights/repository.mjs';
-export async function GET(request,{params}){const {key}=await params;if(!/^[a-f0-9-]+\.(png|jpg|webp)$/.test(key))return new Response('Not found',{status:404});const file=await mediaStore.get(key);if(!file)return new Response('Not found',{status:404});return new Response(file.body,{headers:{'Content-Type':file.type,'X-Content-Type-Options':'nosniff','Cache-Control':'public, max-age=31536000, immutable'}});}
