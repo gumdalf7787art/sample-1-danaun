@@ -1,0 +1,42 @@
+name: Import local snapshot
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore original source tree
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path, PurePosixPath
+          import zipfile
+          count = 0
+          for i in range(1, 9):
+              archive = Path(f'batch{i}.zip')
+              with zipfile.ZipFile(archive) as z:
+                  for entry in z.infolist():
+                      name = entry.filename.replace(chr(92), '/')
+                      path = PurePosixPath(name)
+                      assert not path.is_absolute() and '..' not in path.parts and '.git' not in path.parts
+                      if entry.is_dir():
+                          continue
+                      target = Path(name)
+                      target.parent.mkdir(parents=True, exist_ok=True)
+                      target.write_bytes(z.read(entry))
+                      count += 1
+          assert count == 637, count
+          for i in range(1, 9):
+              Path(f'batch{i}.zip').unlink()
+          Path('.github/workflows/import-local-snapshot.yml').unlink()
+          print(f'Restored {count} project files')
+          PY
+      - name: Commit and push project files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m "Import 637 local clinic website files with original folder structure"
+          git push origin HEAD:main
