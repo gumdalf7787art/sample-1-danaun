@@ -1,0 +1,3608 @@
+{
+  "home": {
+    "desktop": {
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 1440,
+            "height": 860,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "재생치료를 중심으로, 당신의 회복을 설계합니다.",
+            "title": {
+              "width": 444,
+              "height": 120,
+              "fontSize": "41px",
+              "lineHeight": "59.86px",
+              "fontWeight": "600",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "therapy-cards": {
+            "width": 1280,
+            "height": 696,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 902,
+            "titleText": "나에게 맞는 재생치료,회복의 시작.",
+            "title": {
+              "width": 328,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "consultation-story": {
+            "width": 1440,
+            "height": 745,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 1598,
+            "titleText": "무엇을 맞는지,알고 맞으셔야 합니다.",
+            "title": {
+              "width": 600,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "four-points": {
+            "width": 1440,
+            "height": 782,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 2343,
+            "titleText": "통증은 참는 것이 아니라읽는 것입니다.",
+            "title": {
+              "width": 358,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "assessment": {
+            "width": 1280,
+            "height": 576,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 3125,
+            "titleText": "리셋은 무엇을 살피나요?",
+            "title": {
+              "width": 371,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(23, 37, 65)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "center-cards": {
+            "width": 1440,
+            "height": 864,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 3701,
+            "titleText": "당신의 회복을 위한, 치료 센터.",
+            "title": {
+              "width": 1280,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 6,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "science": {
+            "width": 1440,
+            "height": 650,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 4565,
+            "titleText": "PRF와 무릎 SVF, 무엇이 다를까요?",
+            "title": {
+              "width": 754,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 3,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "journey": {
+            "width": 1440,
+            "height": 590,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 5215,
+            "titleText": "RESET REGEN 치료과정",
+            "title": {
+              "width": 1168,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 1
+            }
+          },
+          "doctor-portrait": {
+            "width": 1440,
+            "height": 672,
+            "backgroundColor": "rgb(246, 243, 238)",
+            "y": 5805,
+            "titleText": "이고은 대표원장",
+            "title": {
+              "width": 552,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(23, 37, 65)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "videos": {
+            "width": 1440,
+            "height": 834,
+            "backgroundColor": "rgb(251, 250, 247)",
+            "y": 6477,
+            "titleText": "닥터고은 TV",
+            "title": {
+              "width": 1168,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 5,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "columns": {
+            "width": 1440,
+            "height": 867,
+            "backgroundColor": "rgb(251, 250, 247)",
+            "y": 7313,
+            "titleText": "건강 칼럼",
+            "title": {
+              "width": 1168,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "consultation": {
+            "width": 1440,
+            "height": 621,
+            "backgroundColor": "rgb(240, 227, 214)",
+            "y": 8418,
+            "titleText": "상담신청",
+            "title": {
+              "width": 440,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "visit": {
+            "width": 1440,
+            "height": 828,
+            "backgroundColor": "rgb(250, 248, 245)",
+            "y": 9039,
+            "titleText": "진료시간과 오시는 길.",
+            "title": {
+              "width": 1168,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "home-desktop.jpg",
+      "failures": []
+    },
+    "mobile": {
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 360,
+            "height": 740,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "재생치료를 중심으로, 당신의 회복을 설계합니다.",
+            "title": {
+              "width": 217,
+              "height": 58,
+              "fontSize": "20px",
+              "lineHeight": "29.2px",
+              "fontWeight": "600",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "therapy-cards": {
+            "width": 360,
+            "height": 2015,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 778,
+            "titleText": "나에게 맞는 재생치료,회복의 시작.",
+            "title": {
+              "width": 320,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "consultation-story": {
+            "width": 360,
+            "height": 1015,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 2793,
+            "titleText": "무엇을 맞는지,알고 맞으셔야 합니다.",
+            "title": {
+              "width": 312,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "four-points": {
+            "width": 360,
+            "height": 1495,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 3808,
+            "titleText": "통증은 참는 것이 아니라읽는 것입니다.",
+            "title": {
+              "width": 259,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "assessment": {
+            "width": 360,
+            "height": 921,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 5303,
+            "titleText": "리셋은 무엇을 살피나요?",
+            "title": {
+              "width": 320,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(23, 37, 65)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "center-cards": {
+            "width": 360,
+            "height": 2021,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 6224,
+            "titleText": "당신의 회복을 위한, 치료 센터.",
+            "title": {
+              "width": 312,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 6,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "science": {
+            "width": 360,
+            "height": 913,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 8246,
+            "titleText": "PRF와 무릎 SVF, 무엇이 다를까요?",
+            "title": {
+              "width": 312,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 3,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "journey": {
+            "width": 360,
+            "height": 1073,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 9159,
+            "titleText": "RESET REGEN 치료과정",
+            "title": {
+              "width": 320,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 1
+            }
+          },
+          "doctor-portrait": {
+            "width": 360,
+            "height": 867,
+            "backgroundColor": "rgb(246, 243, 238)",
+            "y": 10232,
+            "titleText": "이고은 대표원장",
+            "title": {
+              "width": 320,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(23, 37, 65)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "videos": {
+            "width": 360,
+            "height": 765,
+            "backgroundColor": "rgb(251, 250, 247)",
+            "y": 11099,
+            "titleText": "닥터고은 TV",
+            "title": {
+              "width": 320,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 5,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "columns": {
+            "width": 360,
+            "height": 2073,
+            "backgroundColor": "rgb(251, 250, 247)",
+            "y": 11865,
+            "titleText": "건강 칼럼",
+            "title": {
+              "width": 320,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "consultation": {
+            "width": 360,
+            "height": 774,
+            "backgroundColor": "rgb(240, 227, 214)",
+            "y": 14267,
+            "titleText": "상담신청",
+            "title": {
+              "width": 320,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "visit": {
+            "width": 360,
+            "height": 1182,
+            "backgroundColor": "rgb(250, 248, 245)",
+            "y": 15041,
+            "titleText": "진료시간과 오시는 길.",
+            "title": {
+              "width": 320,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "home-mobile.jpg",
+      "failures": []
+    }
+  },
+  "regen": {
+    "desktop": {
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 1440,
+            "height": 515,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "재생치료 소개",
+            "title": {
+              "width": 244,
+              "height": 59,
+              "fontSize": "42px",
+              "lineHeight": "58.8px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "definition": {
+            "width": 1440,
+            "height": 722,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 560,
+            "titleText": "RESET REGEN은 무엇인가요?",
+            "title": {
+              "width": 1120,
+              "height": 69,
+              "fontSize": "51px",
+              "lineHeight": "68.85px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "why-cards": {
+            "width": 1440,
+            "height": 1030,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "y": 1860,
+            "titleText": "왜 조직의 회복까지 생각할까요?",
+            "title": {
+              "width": 820,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "700",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(53, 105, 212)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 2,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "parallax": {
+            "width": 1440,
+            "height": 464,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 2890,
+            "titleText": "같은 통증이라도,치료는 달라질 수 있습니다.",
+            "title": {
+              "width": 525,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 1
+            }
+          },
+          "options": {
+            "width": 1120,
+            "height": 985,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 3354,
+            "titleText": "회복을 위한다양한 치료 선택지",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "photo-split": {
+            "width": 1440,
+            "height": 1017,
+            "backgroundColor": "rgb(237, 241, 245)",
+            "y": 4338,
+            "titleText": "치료보다 먼저,통증이 시작되는 곳을 찾습니다.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 7,
+              ".journey-backdrop": 0
+            }
+          },
+          "recovery-flow": {
+            "width": 1440,
+            "height": 1227,
+            "backgroundColor": "rgb(248, 250, 251)",
+            "y": 5355,
+            "titleText": "회복에는 시간이 걸립니다.",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "consent": {
+            "width": 1440,
+            "height": 744,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 6582,
+            "titleText": "설명되지 않은스테로이드를 사용하지 않습니다.",
+            "title": {
+              "width": 760,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "faq": {
+            "width": 1440,
+            "height": 3405,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 7326,
+            "titleText": "FAQ",
+            "title": {
+              "width": 264,
+              "height": 82,
+              "fontSize": "68px",
+              "lineHeight": "81.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 20,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "regen-desktop.jpg",
+      "failures": []
+    },
+    "mobile": {
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 360,
+            "height": 409,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "재생치료 소개",
+            "title": {
+              "width": 202,
+              "height": 41,
+              "fontSize": "28px",
+              "lineHeight": "40.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "definition": {
+            "width": 360,
+            "height": 768,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 498,
+            "titleText": "RESET REGEN은 무엇인가요?",
+            "title": {
+              "width": 316,
+              "height": 31,
+              "fontSize": "23.04px",
+              "lineHeight": "31.104px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "why-cards": {
+            "width": 360,
+            "height": 1257,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "y": 2010,
+            "titleText": "왜 조직의 회복까지 생각할까요?",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "700",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(53, 105, 212)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 2,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "parallax": {
+            "width": 360,
+            "height": 647,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 3267,
+            "titleText": "같은 통증이라도,치료는 달라질 수 있습니다.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 1
+            }
+          },
+          "options": {
+            "width": 316,
+            "height": 1189,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 3914,
+            "titleText": "회복을 위한다양한 치료 선택지",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "photo-split": {
+            "width": 360,
+            "height": 1267,
+            "backgroundColor": "rgb(237, 241, 245)",
+            "y": 5103,
+            "titleText": "치료보다 먼저,통증이 시작되는 곳을 찾습니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 7,
+              ".journey-backdrop": 0
+            }
+          },
+          "recovery-flow": {
+            "width": 360,
+            "height": 1258,
+            "backgroundColor": "rgb(248, 250, 251)",
+            "y": 6369,
+            "titleText": "회복에는 시간이 걸립니다.",
+            "title": {
+              "width": 316,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "consent": {
+            "width": 360,
+            "height": 711,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 7627,
+            "titleText": "설명되지 않은스테로이드를 사용하지 않습니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "faq": {
+            "width": 360,
+            "height": 5410,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 8339,
+            "titleText": "FAQ",
+            "title": {
+              "width": 316,
+              "height": 58,
+              "fontSize": "48px",
+              "lineHeight": "57.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 20,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "regen-mobile.jpg",
+      "failures": []
+    }
+  },
+  "injection": {
+    "desktop": {
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 1440,
+            "height": 515,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "리젠 주사",
+            "title": {
+              "width": 383,
+              "height": 59,
+              "fontSize": "42px",
+              "lineHeight": "58.8px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "definition": {
+            "width": 1440,
+            "height": 449,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 560,
+            "titleText": "리젠주사란?",
+            "title": {
+              "width": 1120,
+              "height": 69,
+              "fontSize": "51px",
+              "lineHeight": "68.85px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "treatment-cards": {
+            "width": 1440,
+            "height": 851,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 1009,
+            "titleText": "리셋 리젠의 주사치료",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "symptoms": {
+            "width": 1120,
+            "height": 833,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 1860,
+            "titleText": "이런 불편이 있다면원인부터 확인해 보세요.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "photo-split": {
+            "width": 1440,
+            "height": 1033,
+            "backgroundColor": "rgb(237, 241, 245)",
+            "y": 2693,
+            "titleText": "무엇을 보고치료를 결정하나요?",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "options": {
+            "width": 1440,
+            "height": 821,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 3726,
+            "titleText": "어떤 주사가 필요한지부터 판단합니다.",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "consent": {
+            "width": 1440,
+            "height": 716,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 4547,
+            "titleText": "무엇을 맞는지,알고 맞으셔야 합니다.",
+            "title": {
+              "width": 760,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "procedure": {
+            "width": 1440,
+            "height": 805,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 5263,
+            "titleText": "리젠 주사는 어떻게 진행하나요?",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "process": {
+            "width": 1440,
+            "height": 594,
+            "backgroundColor": "rgb(248, 250, 251)",
+            "y": 6068,
+            "titleText": "치료 횟수와 간격도,나에게 맞게.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "followup": {
+            "width": 1120,
+            "height": 681,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 6662,
+            "titleText": "덜 아픈지,더 편하게 움직이는지.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "aftercare": {
+            "width": 1440,
+            "height": 771,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 7343,
+            "titleText": "치료 전후, 함께 확인해 주세요.",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 4,
+              ".journey-backdrop": 0
+            }
+          },
+          "faq": {
+            "width": 1440,
+            "height": 2623,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 8114,
+            "titleText": "FAQ",
+            "title": {
+              "width": 264,
+              "height": 82,
+              "fontSize": "68px",
+              "lineHeight": "81.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 16,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "injection-desktop.jpg",
+      "failures": []
+    },
+    "mobile": {
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 360,
+            "height": 409,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "리젠 주사",
+            "title": {
+              "width": 316,
+              "height": 41,
+              "fontSize": "28px",
+              "lineHeight": "40.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "definition": {
+            "width": 360,
+            "height": 370,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 498,
+            "titleText": "리젠주사란?",
+            "title": {
+              "width": 316,
+              "height": 31,
+              "fontSize": "23.04px",
+              "lineHeight": "31.104px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "treatment-cards": {
+            "width": 360,
+            "height": 883,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 868,
+            "titleText": "리셋 리젠의 주사치료",
+            "title": {
+              "width": 316,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "symptoms": {
+            "width": 316,
+            "height": 966,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 1752,
+            "titleText": "이런 불편이 있다면원인부터 확인해 보세요.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "photo-split": {
+            "width": 360,
+            "height": 1303,
+            "backgroundColor": "rgb(237, 241, 245)",
+            "y": 2718,
+            "titleText": "무엇을 보고치료를 결정하나요?",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "options": {
+            "width": 360,
+            "height": 1113,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 4021,
+            "titleText": "어떤 주사가 필요한지부터 판단합니다.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "consent": {
+            "width": 360,
+            "height": 747,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 5134,
+            "titleText": "무엇을 맞는지,알고 맞으셔야 합니다.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "procedure": {
+            "width": 360,
+            "height": 1078,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 5881,
+            "titleText": "리젠 주사는 어떻게 진행하나요?",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "process": {
+            "width": 360,
+            "height": 894,
+            "backgroundColor": "rgb(248, 250, 251)",
+            "y": 6958,
+            "titleText": "치료 횟수와 간격도,나에게 맞게.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "followup": {
+            "width": 316,
+            "height": 839,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 7852,
+            "titleText": "덜 아픈지,더 편하게 움직이는지.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "aftercare": {
+            "width": 360,
+            "height": 831,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 8691,
+            "titleText": "치료 전후, 함께 확인해 주세요.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 4,
+              ".journey-backdrop": 0
+            }
+          },
+          "faq": {
+            "width": 360,
+            "height": 3643,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 9523,
+            "titleText": "FAQ",
+            "title": {
+              "width": 316,
+              "height": 58,
+              "fontSize": "48px",
+              "lineHeight": "57.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 16,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "injection-mobile.jpg",
+      "failures": []
+    }
+  },
+  "prp-prf": {
+    "desktop": {
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 1440,
+            "height": 515,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "PRP·PRF",
+            "title": {
+              "width": 618,
+              "height": 59,
+              "fontSize": "42px",
+              "lineHeight": "58.8px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "summary": {
+            "width": 1440,
+            "height": 1061,
+            "backgroundColor": "rgb(248, 247, 244)",
+            "y": 560,
+            "titleText": "같은 자가혈액에서 출발하지만,제제의 특성은 다릅니다.",
+            "title": {
+              "width": 714,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 3,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "photo-split": {
+            "width": 1440,
+            "height": 719,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 1621,
+            "titleText": "지금의 상태를 살피고,돌아가고 싶은 일상을 함께 봅니다.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "parallax": {
+            "width": 1440,
+            "height": 569,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 2339,
+            "titleText": "혈장·혈소판·피브린은 어떤 역할을 하나요?",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(246, 248, 250)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 4,
+              ".journey-backdrop": 1
+            }
+          },
+          "prp": {
+            "width": 1440,
+            "height": 715,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 2908,
+            "titleText": "PRP는 어떻게 준비하나요?",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "prf": {
+            "width": 1440,
+            "height": 1375,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 3623,
+            "titleText": "PRF는 무엇에 주목하는 치료일까요?",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 2,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "comparison": {
+            "width": 1440,
+            "height": 854,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 4998,
+            "titleText": "PRP와 PRF는 무엇이 다른가요?",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 1,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "evidence": {
+            "width": 1440,
+            "height": 1793,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 6789,
+            "titleText": "치료의 근거는 질환별로 확인합니다.",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 1,
+              "[data-ro-reveal]": 7,
+              ".journey-backdrop": 0
+            }
+          },
+          "shared-decision": {
+            "width": 1440,
+            "height": 802,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 9028,
+            "titleText": "이 치료를 왜 고려하는지,내 상태에 맞춰 설명합니다.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "process": {
+            "width": 1440,
+            "height": 642,
+            "backgroundColor": "rgb(248, 250, 251)",
+            "y": 9829,
+            "titleText": "리셋에서의 진료,평가부터 경과 확인까지.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "rehab": {
+            "width": 1440,
+            "height": 762,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 10471,
+            "titleText": "치료 이후의 움직임까지,리셋의 네 가지 관점으로.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(246, 248, 250)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "safety": {
+            "width": 1440,
+            "height": 880,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 11983,
+            "titleText": "치료 전후에 무엇을 확인하나요?",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "faq": {
+            "width": 1440,
+            "height": 3752,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 12863,
+            "titleText": "FAQ",
+            "title": {
+              "width": 264,
+              "height": 82,
+              "fontSize": "68px",
+              "lineHeight": "81.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 26,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "references": {
+            "width": 1440,
+            "height": 1200,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 16615,
+            "titleText": "참고문헌과 검토 정보",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "prp-prf-desktop.jpg",
+      "failures": []
+    },
+    "mobile": {
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 360,
+            "height": 409,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "PRP·PRF",
+            "title": {
+              "width": 316,
+              "height": 41,
+              "fontSize": "28px",
+              "lineHeight": "40.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "summary": {
+            "width": 360,
+            "height": 1250,
+            "backgroundColor": "rgb(248, 247, 244)",
+            "y": 498,
+            "titleText": "같은 자가혈액에서 출발하지만,제제의 특성은 다릅니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 3,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "photo-split": {
+            "width": 360,
+            "height": 1058,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 1748,
+            "titleText": "지금의 상태를 살피고,돌아가고 싶은 일상을 함께 봅니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "parallax": {
+            "width": 360,
+            "height": 939,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 2806,
+            "titleText": "혈장·혈소판·피브린은 어떤 역할을 하나요?",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(246, 248, 250)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 4,
+              ".journey-backdrop": 1
+            }
+          },
+          "prp": {
+            "width": 360,
+            "height": 852,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 3745,
+            "titleText": "PRP는 어떻게 준비하나요?",
+            "title": {
+              "width": 316,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "prf": {
+            "width": 360,
+            "height": 2373,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 4597,
+            "titleText": "PRF는 무엇에 주목하는 치료일까요?",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 2,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "comparison": {
+            "width": 360,
+            "height": 846,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 6970,
+            "titleText": "PRP와 PRF는 무엇이 다른가요?",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 1,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "evidence": {
+            "width": 360,
+            "height": 2415,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 8898,
+            "titleText": "치료의 근거는 질환별로 확인합니다.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 1,
+              "[data-ro-reveal]": 7,
+              ".journey-backdrop": 0
+            }
+          },
+          "shared-decision": {
+            "width": 360,
+            "height": 1102,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 11890,
+            "titleText": "이 치료를 왜 고려하는지,내 상태에 맞춰 설명합니다.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "process": {
+            "width": 360,
+            "height": 1043,
+            "backgroundColor": "rgb(248, 250, 251)",
+            "y": 12992,
+            "titleText": "리셋에서의 진료,평가부터 경과 확인까지.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "rehab": {
+            "width": 360,
+            "height": 1062,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 14035,
+            "titleText": "치료 이후의 움직임까지,리셋의 네 가지 관점으로.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(246, 248, 250)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "safety": {
+            "width": 360,
+            "height": 826,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 15687,
+            "titleText": "치료 전후에 무엇을 확인하나요?",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "faq": {
+            "width": 360,
+            "height": 5274,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 16512,
+            "titleText": "FAQ",
+            "title": {
+              "width": 316,
+              "height": 58,
+              "fontSize": "48px",
+              "lineHeight": "57.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 26,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "references": {
+            "width": 360,
+            "height": 1281,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 21787,
+            "titleText": "참고문헌과 검토 정보",
+            "title": {
+              "width": 316,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "prp-prf-mobile.jpg",
+      "failures": []
+    }
+  },
+  "sports": {
+    "desktop": {
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 1440,
+            "height": 515,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "스포츠손상 센터",
+            "title": {
+              "width": 370,
+              "height": 59,
+              "fontSize": "42px",
+              "lineHeight": "58.8px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "program": {
+            "width": 1440,
+            "height": 1264,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 560,
+            "titleText": "다시 뛰기 위해, 손상된 조직과 몸의 균형을 함께 봅니다.",
+            "title": {
+              "width": 1120,
+              "height": 138,
+              "fontSize": "51px",
+              "lineHeight": "68.85px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "symptoms": {
+            "width": 1440,
+            "height": 956,
+            "backgroundColor": "rgb(248, 247, 244)",
+            "y": 1824,
+            "titleText": "운동할 때 반복되는 불편,이런 경우 함께 살펴봅니다.",
+            "title": {
+              "width": 714,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 8,
+              ".journey-backdrop": 0
+            }
+          },
+          "injury-cards": {
+            "width": 1440,
+            "height": 949,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "y": 2779,
+            "titleText": "갑자기 다친 통증과,반복해서 생긴 통증을 구분합니다.",
+            "title": {
+              "width": 820,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 2,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "photo-split": {
+            "width": 1440,
+            "height": 1084,
+            "backgroundColor": "rgb(237, 241, 245)",
+            "y": 3729,
+            "titleText": "손상 부위에 더해,돌아가고 싶은 움직임을 살핍니다.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "parallax": {
+            "width": 1440,
+            "height": 503,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 4813,
+            "titleText": "평가 결과를,나에게 필요한 치료 계획으로.",
+            "title": {
+              "width": 525,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 4,
+              ".journey-backdrop": 1
+            }
+          },
+          "sports-cards": {
+            "width": 1440,
+            "height": 1118,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 5316,
+            "titleText": "어떤 운동으로 돌아가고 싶은지에 따라,살펴볼 동작도 달라집니다.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "treatment": {
+            "width": 1440,
+            "height": 1185,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 6433,
+            "titleText": "치료는 현재의 상태와 목표에 맞춰 선택합니다.",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 1,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "recovery": {
+            "width": 1440,
+            "height": 753,
+            "backgroundColor": "rgb(248, 250, 251)",
+            "y": 7618,
+            "titleText": "리셋 리커버리,평가에서 활동 복귀까지.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "return": {
+            "width": 1440,
+            "height": 1200,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 8370,
+            "titleText": "운동 복귀는,날짜와 통증만으로 결정하지 않습니다.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 8,
+              ".journey-backdrop": 0
+            }
+          },
+          "followup": {
+            "width": 1440,
+            "height": 747,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 9570,
+            "titleText": "지난번보다 무엇이 달라졌는지,움직임에서 확인합니다.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 1,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "doctor-cutout": {
+            "width": 1440,
+            "height": 693,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 10317,
+            "titleText": "재활의학과의 관점으로,손상 이후의 움직임까지 살핍니다.",
+            "title": {
+              "width": 717,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(246, 248, 250)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "first-visit": {
+            "width": 1440,
+            "height": 976,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 11010,
+            "titleText": "첫 진료에서는,다친 순간과 돌아가고 싶은 활동을 알려주세요.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "faq": {
+            "width": 1440,
+            "height": 2889,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 11986,
+            "titleText": "FAQ",
+            "title": {
+              "width": 264,
+              "height": 82,
+              "fontSize": "68px",
+              "lineHeight": "81.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 18,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "references": {
+            "width": 1440,
+            "height": 540,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 14874,
+            "titleText": "진료를 이해하는 데 도움이 되는 정보",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "sports-desktop.jpg",
+      "failures": []
+    },
+    "mobile": {
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 360,
+            "height": 409,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "스포츠손상 센터",
+            "title": {
+              "width": 316,
+              "height": 41,
+              "fontSize": "28px",
+              "lineHeight": "40.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "program": {
+            "width": 360,
+            "height": 1383,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 498,
+            "titleText": "다시 뛰기 위해, 손상된 조직과 몸의 균형을 함께 봅니다.",
+            "title": {
+              "width": 316,
+              "height": 93,
+              "fontSize": "23.04px",
+              "lineHeight": "31.104px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "symptoms": {
+            "width": 360,
+            "height": 1346,
+            "backgroundColor": "rgb(248, 247, 244)",
+            "y": 1882,
+            "titleText": "운동할 때 반복되는 불편,이런 경우 함께 살펴봅니다.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 8,
+              ".journey-backdrop": 0
+            }
+          },
+          "injury-cards": {
+            "width": 360,
+            "height": 1375,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "y": 3228,
+            "titleText": "갑자기 다친 통증과,반복해서 생긴 통증을 구분합니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 2,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "photo-split": {
+            "width": 360,
+            "height": 1500,
+            "backgroundColor": "rgb(237, 241, 245)",
+            "y": 4603,
+            "titleText": "손상 부위에 더해,돌아가고 싶은 움직임을 살핍니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "parallax": {
+            "width": 360,
+            "height": 735,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 6103,
+            "titleText": "평가 결과를,나에게 필요한 치료 계획으로.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 4,
+              ".journey-backdrop": 1
+            }
+          },
+          "sports-cards": {
+            "width": 360,
+            "height": 1618,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 6838,
+            "titleText": "어떤 운동으로 돌아가고 싶은지에 따라,살펴볼 동작도 달라집니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "treatment": {
+            "width": 360,
+            "height": 1717,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 8456,
+            "titleText": "치료는 현재의 상태와 목표에 맞춰 선택합니다.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 1,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "recovery": {
+            "width": 360,
+            "height": 1146,
+            "backgroundColor": "rgb(248, 250, 251)",
+            "y": 10173,
+            "titleText": "리셋 리커버리,평가에서 활동 복귀까지.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "return": {
+            "width": 360,
+            "height": 1392,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 11319,
+            "titleText": "운동 복귀는,날짜와 통증만으로 결정하지 않습니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 8,
+              ".journey-backdrop": 0
+            }
+          },
+          "followup": {
+            "width": 360,
+            "height": 637,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 12711,
+            "titleText": "지난번보다 무엇이 달라졌는지,움직임에서 확인합니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 1,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          },
+          "doctor-cutout": {
+            "width": 360,
+            "height": 1099,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 13348,
+            "titleText": "재활의학과의 관점으로,손상 이후의 움직임까지 살핍니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(246, 248, 250)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "first-visit": {
+            "width": 360,
+            "height": 1126,
+            "backgroundColor": "rgb(240, 243, 247)",
+            "y": 14447,
+            "titleText": "첫 진료에서는,다친 순간과 돌아가고 싶은 활동을 알려주세요.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "faq": {
+            "width": 360,
+            "height": 4144,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 15572,
+            "titleText": "FAQ",
+            "title": {
+              "width": 316,
+              "height": 58,
+              "fontSize": "48px",
+              "lineHeight": "57.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 18,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "references": {
+            "width": 360,
+            "height": 519,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 19716,
+            "titleText": "진료를 이해하는 데 도움이 되는 정보",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 1,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "sports-mobile.jpg",
+      "failures": []
+    }
+  },
+  "doctor": {
+    "desktop": {
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 1440,
+            "height": 515,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "이고은 대표원장",
+            "title": {
+              "width": 282,
+              "height": 59,
+              "fontSize": "42px",
+              "lineHeight": "58.8px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "portrait": {
+            "width": 1440,
+            "height": 698,
+            "backgroundColor": "rgb(246, 243, 238)",
+            "y": 560,
+            "titleText": "통증을 살피고,다시 이어갈 일상을 생각합니다.",
+            "title": {
+              "width": 594,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "photo-split": {
+            "width": 1440,
+            "height": 722,
+            "backgroundColor": "rgb(237, 241, 245)",
+            "y": 1258,
+            "titleText": "통증이 생긴 순간부터,일상에서 반복되는 움직임까지.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "career-parallax": {
+            "width": 1440,
+            "height": 824,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 1979,
+            "titleText": "진료와 임상 경력",
+            "title": {
+              "width": 520,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 4,
+              ".journey-backdrop": 1
+            }
+          },
+          "education": {
+            "width": 1440,
+            "height": 844,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 2803,
+            "titleText": "진료실 밖에서도,움직임을 설명합니다.",
+            "title": {
+              "width": 1120,
+              "height": 108,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "book": {
+            "width": 1440,
+            "height": 529,
+            "backgroundColor": "rgb(238, 231, 223)",
+            "y": 3647,
+            "titleText": "골반 리셋 클리닉",
+            "title": {
+              "width": 567,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "broadcast": {
+            "width": 1440,
+            "height": 1127,
+            "backgroundColor": "rgb(246, 248, 250)",
+            "y": 4176,
+            "titleText": "방송·건강정보 활동",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 72,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "videos": {
+            "width": 1440,
+            "height": 905,
+            "backgroundColor": "rgb(251, 250, 247)",
+            "y": 5304,
+            "titleText": "닥터고은 TV",
+            "title": {
+              "width": 1168,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 5,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "columns": {
+            "width": 1440,
+            "height": 900,
+            "backgroundColor": "rgb(251, 250, 247)",
+            "y": 6209,
+            "titleText": "건강 칼럼",
+            "title": {
+              "width": 1168,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "care": {
+            "width": 1440,
+            "height": 783,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 7109,
+            "titleText": "리셋에서 함께 살피는 네 가지",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "fields": {
+            "width": 1440,
+            "height": 662,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 7892,
+            "titleText": "진료 분야 안내",
+            "title": {
+              "width": 1120,
+              "height": 54,
+              "fontSize": "36px",
+              "lineHeight": "54px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 7,
+              ".journey-backdrop": 0
+            }
+          },
+          "faq": {
+            "width": 1440,
+            "height": 1006,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 8554,
+            "titleText": "FAQ",
+            "title": {
+              "width": 264,
+              "height": 82,
+              "fontSize": "68px",
+              "lineHeight": "81.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 6,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "doctor-desktop.jpg",
+      "failures": []
+    },
+    "mobile": {
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "headings": 1,
+        "sections": {
+          "hero": {
+            "width": 360,
+            "height": 409,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 0,
+            "titleText": "이고은 대표원장",
+            "title": {
+              "width": 187,
+              "height": 41,
+              "fontSize": "28px",
+              "lineHeight": "40.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "portrait": {
+            "width": 360,
+            "height": 982,
+            "backgroundColor": "rgb(246, 243, 238)",
+            "y": 498,
+            "titleText": "통증을 살피고,다시 이어갈 일상을 생각합니다.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "photo-split": {
+            "width": 360,
+            "height": 829,
+            "backgroundColor": "rgb(237, 241, 245)",
+            "y": 1480,
+            "titleText": "통증이 생긴 순간부터,일상에서 반복되는 움직임까지.",
+            "title": {
+              "width": 316,
+              "height": 117,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "career-parallax": {
+            "width": 360,
+            "height": 810,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 2309,
+            "titleText": "진료와 임상 경력",
+            "title": {
+              "width": 316,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 4,
+              ".journey-backdrop": 1
+            }
+          },
+          "education": {
+            "width": 360,
+            "height": 841,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 3119,
+            "titleText": "진료실 밖에서도,움직임을 설명합니다.",
+            "title": {
+              "width": 316,
+              "height": 78,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 3,
+              ".journey-backdrop": 0
+            }
+          },
+          "book": {
+            "width": 360,
+            "height": 715,
+            "backgroundColor": "rgb(238, 231, 223)",
+            "y": 3960,
+            "titleText": "골반 리셋 클리닉",
+            "title": {
+              "width": 316,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 2,
+              ".journey-backdrop": 0
+            }
+          },
+          "broadcast": {
+            "width": 360,
+            "height": 1191,
+            "backgroundColor": "rgb(246, 248, 250)",
+            "y": 4675,
+            "titleText": "방송·건강정보 활동",
+            "title": {
+              "width": 316,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 72,
+              "table": 0,
+              "[data-ro-reveal]": 5,
+              ".journey-backdrop": 0
+            }
+          },
+          "videos": {
+            "width": 360,
+            "height": 833,
+            "backgroundColor": "rgb(251, 250, 247)",
+            "y": 5866,
+            "titleText": "닥터고은 TV",
+            "title": {
+              "width": 320,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 5,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "columns": {
+            "width": 360,
+            "height": 2233,
+            "backgroundColor": "rgb(251, 250, 247)",
+            "y": 6701,
+            "titleText": "건강 칼럼",
+            "title": {
+              "width": 320,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 4,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          },
+          "care": {
+            "width": 360,
+            "height": 1208,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 8934,
+            "titleText": "리셋에서 함께 살피는 네 가지",
+            "title": {
+              "width": 316,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 1,
+              "table": 0,
+              "[data-ro-reveal]": 6,
+              ".journey-backdrop": 0
+            }
+          },
+          "fields": {
+            "width": 360,
+            "height": 928,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "y": 10141,
+            "titleText": "진료 분야 안내",
+            "title": {
+              "width": 316,
+              "height": 39,
+              "fontSize": "26px",
+              "lineHeight": "39px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(11, 23, 56)"
+            },
+            "counts": {
+              ".ro-faq-answer": 0,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 7,
+              ".journey-backdrop": 0
+            }
+          },
+          "faq": {
+            "width": 360,
+            "height": 1573,
+            "backgroundColor": "rgb(11, 23, 56)",
+            "y": 11069,
+            "titleText": "FAQ",
+            "title": {
+              "width": 316,
+              "height": 58,
+              "fontSize": "48px",
+              "lineHeight": "57.6px",
+              "fontWeight": "500",
+              "fontFamily": "\"S-Core Dream\", Pretendard, sans-serif",
+              "color": "rgb(255, 255, 255)"
+            },
+            "counts": {
+              ".ro-faq-answer": 6,
+              "img": 0,
+              "table": 0,
+              "[data-ro-reveal]": 0,
+              ".journey-backdrop": 0
+            }
+          }
+        },
+        "brokenLocalImages": []
+      },
+      "screenshot": "doctor-mobile.jpg",
+      "failures": []
+    }
+  }
+}

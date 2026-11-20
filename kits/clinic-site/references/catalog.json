@@ -1,0 +1,24 @@
+{
+  "revision": "65767b3",
+  "viewports": {"desktop": {"width": 1440, "height": 900}, "mobile": {"width": 360, "height": 800}},
+  "pages": {
+    "home": {"path": "/", "label": "메인", "entry": "app/page.js", "component": "app/components/HomePage.js", "hero": ".regen-hero-upgrade", "sections": {
+      "hero": ".regen-hero-upgrade", "therapy-cards": "#regen", "consultation-story": "#injection-principles", "four-points": "#reset-principles", "assessment": "#home-assessment", "center-cards": "#centers", "science": "#regen-science", "journey": "#journey", "doctor-portrait": "#home-doctor", "videos": "#doctor-tv", "columns": "#insights", "consultation": "#consultation", "visit": "#visit"
+    }},
+    "regen": {"path": "/regen", "label": "재생치료 소개", "entry": "app/regen/page.js", "component": "app/components/RegenOverview.js", "hero": ".ro-hero", "sections": {
+      "hero": ".ro-hero", "definition": "#understand", "why-cards": "#why-regen", "parallax": "#personalized-program", "options": "#options", "photo-split": "#precision", "recovery-flow": "#aftercare", "consent": "#principles", "faq": "#regen-faq"
+    }},
+    "injection": {"path": "/regen/injection", "label": "리젠 주사", "entry": "app/regen/[slug]/page.js", "component": "app/components/RegenInjection.js", "hero": ".ro-hero", "sections": {
+      "hero": ".ro-hero", "definition": "#understand", "treatment-cards": "#evidence", "symptoms": "#symptoms", "photo-split": "#content-1", "options": "#content-0", "consent": "#principles", "procedure": "#injection-procedure", "process": "#treatment-process", "followup": "#follow-up", "aftercare": "#aftercare", "faq": "#regen-faq"
+    }},
+    "prp-prf": {"path": "/regen/prp-prf", "label": "PRP·PRF", "entry": "app/regen/[slug]/page.js", "component": "app/components/RegenPrpPrf.js", "hero": ".ro-hero", "sections": {
+      "hero": ".ro-hero", "summary": "#summary", "photo-split": "#reset-approach", "parallax": "#blood-components", "prp": "#prp", "prf": "#prf", "comparison": "#comparison", "evidence": "#evidence", "shared-decision": "#shared-decision", "process": "#process", "rehab": "#rehabilitation", "safety": "#safety", "faq": "#faq", "references": "#references"
+    }},
+    "sports": {"path": "/centers/sports", "label": "스포츠손상 센터", "entry": "app/centers/[slug]/page.js", "component": "app/components/SportsCenter.js", "hero": ".ro-hero", "sections": {
+      "hero": ".ro-hero", "program": "#overview", "symptoms": "#symptoms", "injury-cards": "#injury-context", "photo-split": "#assessment", "parallax": "#care-plan", "sports-cards": "#sports", "treatment": "#treatment", "recovery": "#recovery", "return": "#return-to-sport", "followup": "#follow-up", "doctor-cutout": "#clinic", "first-visit": "#first-visit", "faq": "#faq", "references": "#resources"
+    }},
+    "doctor": {"path": "/about/doctor", "label": "원장소개", "entry": "app/about/doctor/page.js", "component": "app/about/doctor/page.js", "hero": ".ro-hero", "sections": {
+      "hero": ".ro-hero", "portrait": "#profile", "photo-split": "#philosophy", "career-parallax": "#career", "education": "#education", "book": "#book", "broadcast": "#media", "videos": "#doctor-tv", "columns": "#insights", "care": "#care", "fields": "#fields", "faq": "#questions"
+    }}
+  }
+}

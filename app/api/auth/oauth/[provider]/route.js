@@ -1,0 +1,3 @@
+import {startOAuth} from '../../../../../lib/auth/oauth.mjs';
+import {cookie,origin} from '../../../../../lib/auth/server.mjs';
+export async function GET(request,{params}){try{const {provider}=await params;const {url,state}=await startOAuth(provider,request.headers,new URL(request.url).searchParams.get('link')==='1');return new Response(null,{status:302,headers:{Location:url,'Set-Cookie':cookie(state,600,'reset_oauth'),'Cache-Control':'no-store','Referrer-Policy':'no-referrer'}});}catch(e){const url=new URL('/login',origin);url.searchParams.set('message',e.status?e.message:'SNS 로그인에 실패했습니다.');return Response.redirect(url,303)}}

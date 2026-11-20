@@ -1,0 +1,33 @@
+footer.home-footer { background:#0b1738; color:#c2c9d5; padding:0; }
+.home-footer-inner { max-width:1600px; margin:auto; padding:46px 4.4% 25px; }
+.home-footer-top { display:flex; align-items:center; justify-content:space-between; gap:28px; padding-bottom:30px; border-bottom:1px solid #d4b18b30; }
+.home-footer-brand { display:block; flex-shrink:0; width:230px; }
+.home-footer-brand img { display:block; width:100%; height:auto; }
+.home-footer .policy-footer-links { display:flex; flex-wrap:wrap; gap:12px 25px; padding:0; margin:0; border:0; font-size:12px; color:#d5dbe5; }
+.home-footer .policy-footer-links { margin-left:auto; flex:0 1 auto; }
+.home-footer .policy-footer-links a { padding:4px 0; color:#d5dbe5; }
+.home-footer .policy-footer-links a[href='/privacy'] { color:#82dccb; font-weight:500; }
+.home-footer-info { display:flex; justify-content:space-between; gap:30px; padding:28px 0; font-size:12px; line-height:1.9; }
+.home-footer-name { color:#f0f2f6; font-size:14px; margin:0 0 9px; font-weight:500; }
+.home-footer-info dl { display:flex; flex-wrap:wrap; gap:4px 24px; margin:0 0 3px; }
+.home-footer-info dl div { display:flex; gap:9px; }
+.home-footer-info dt { color:#9ba9bf; }
+.home-footer-info dd { margin:0; }
+.home-footer-info address { font-style:normal; }
+.home-footer-phone { display:inline-block; margin-top:6px; color:#c2c9d5; }
+.home-footer-message { align-self:center; color:#d4b18b; font-size:11px; line-height:2; letter-spacing:.13em; }
+.home-footer-bottom { display:flex; justify-content:space-between; align-items:center; gap:20px; border-top:1px solid #ffffff16; padding-top:18px; font-size:10px; color:#9ba9bf; }
+.home-footer-bottom a { font-size:11px; white-space:nowrap; }
+.home-footer-bottom span { color:#82dccb; margin-left:12px; font-size:18px; }
+.home-footer a:hover { color:#82dccb; }
+.home-footer a:focus-visible { outline:2px solid #82dccb; outline-offset:5px; }
+@media(max-width:760px) {
+ .home-footer-inner { padding:34px 24px calc(85px + env(safe-area-inset-bottom)); }
+ .home-footer-top { align-items:flex-start; flex-direction:column; gap:23px; padding-bottom:22px; }
+ .home-footer-brand { width:195px; }
+ .home-footer .policy-footer-links { gap:10px 18px; font-size:11px; margin-left:0; }
+ .home-footer-info { flex-direction:column; gap:18px; padding:23px 0; font-size:11px; }
+ .home-footer-info dl { gap:2px 16px; }
+ .home-footer-message { align-self:flex-start; font-size:9px; }
+ .home-footer-bottom { align-items:flex-start; font-size:8px; gap:12px; }
+}

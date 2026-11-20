@@ -1,0 +1,33 @@
+/* Keep below-fold content searchable while deferring its layout and paint.
+   Remember actual sizes once rendered; estimates preserve scroll length on first visit. */
+.home-premium > section:not(.hero) { content-visibility:auto; contain-intrinsic-block-size:auto var(--home-section-size, 800px); }
+.home-premium > #regen { --home-section-size:696px; }
+.home-premium > #injection-principles { --home-section-size:790px; }
+.home-premium > #reset-principles { --home-section-size:803px; }
+.home-premium > #home-assessment { --home-section-size:576px; }
+.home-premium > #centers { --home-section-size:894px; }
+.home-premium > #regen-science { --home-section-size:650px; }
+.home-premium > #journey { --home-section-size:590px; }
+.home-premium > #home-doctor { --home-section-size:672px; }
+.home-premium > #doctor-tv { --home-section-size:834px; }
+.home-premium > #insights { --home-section-size:867px; }
+.home-premium > .faq-band { --home-section-size:238px; }
+.home-premium > #consultation { --home-section-size:621px; }
+.home-premium > #visit { --home-section-size:828px; }
+@media (max-width:640px) {
+ .home-premium > #regen { --home-section-size:2130px; }
+ .home-premium > #injection-principles { --home-section-size:1053px; }
+ .home-premium > #reset-principles { --home-section-size:1472px; }
+ .home-premium > #home-assessment { --home-section-size:884px; }
+ .home-premium > #centers { --home-section-size:2012px; }
+ .home-premium > #regen-science { --home-section-size:930px; }
+ .home-premium > #journey { --home-section-size:1039px; }
+ .home-premium > #home-doctor { --home-section-size:867px; }
+ .home-premium > #doctor-tv { --home-section-size:790px; }
+ .home-premium > #insights { --home-section-size:1625px; }
+ .home-premium > .faq-band { --home-section-size:329px; }
+ .home-premium > #consultation { --home-section-size:774px; }
+ .home-premium > #visit { --home-section-size:1143px; }
+}
+@media print { .home-premium > section:not(.hero) { content-visibility:visible; contain:none; } }
+

@@ -1,0 +1,33 @@
+.pc-comparison { margin: 30px auto 0; }
+.pc-comparison > p:first-child { margin: 0 0 16px; }
+.pc-guide { background: #0b1738; color: #f6f8fa; }
+.posture-center .pc-guide h2 { color: #f6f8fa; }
+.posture-center .pc-guide h2 em { color: #82dccb; }
+.posture-center .pc-guide .ro-label { color: #d4b18b; }
+.pc-guide-layout { display: grid; grid-template-columns: minmax(0, 60%) minmax(0, 37%); gap: 3%; }
+.pc-guide-image { position: relative; align-self: stretch; width: 100%; margin: 0; overflow: hidden; border: 1px solid #d4b18b44; border-radius: 12px; background: #0d1725; aspect-ratio: 4 / 5; }
+.pc-guide-image img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 900px) {
+  .pc-guide-layout { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  .pc-guide-image { width: min(100%, 420px); justify-self: center; }
+}
+.pc-guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
+.pc-guide-grid article { padding: 13px 17px; border-radius: 12px; background: #142343; border: 1px solid #d4b18b44; }
+.pc-guide-grid article:last-child { grid-column: 1 / -1; }
+.posture-center .pc-guide-grid h3 { font-size: 18px; line-height: 1.45; color: #e8c5a0; margin: 0 0 6px; }
+.pc-guide-grid p { margin: 0; color: #d1dbe6; font-size: 15px; line-height: 1.6; }
+.pc-guide .care-citations a { color: #b9e6dc; }
+.posture-center .pc-growth .ro-personal-copy { position: static; align-self: center; }
+.posture-center .pc-growth .journey-backdrop::after { background: linear-gradient(90deg,#0b1738f2,#0b1738d8 56%,#0b1738c4); }
+.pc-growth-note { margin-top: 20px; padding-top: 16px; border-top: 1px solid #d4b18b55; color: #e8c5a0; font-size: 15px; line-height: 1.8; }
+.posture-center #adult .rp-photo { min-height: 250px; }
+.pc-adult-copy article { border-top: 1px solid #bba081; padding-block: 14px; }
+.posture-center :is(.pc-adult-copy, .pc-referral, .care-location) h3 { font-size: 18px; line-height: 1.55; margin-bottom: 7px; }
+.pc-adult-copy p { color: #52647a; font-size: 15px; line-height: 1.8; }
+.pc-referral { background: #fff; }
+.posture-center .care-location h3 { margin-top: 22px; }
+.posture-center .care-location .care-prompt-list { margin-top: 0; }
+@media (max-width: 640px) {
+  .pc-guide-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .posture-center .pc-growth .journey-backdrop::after { background: #0b1738e3; }
+}

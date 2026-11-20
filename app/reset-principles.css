@@ -1,0 +1,46 @@
+.home-premium .reset-principles{position:relative;isolation:isolate;background:#0b1738;color:#fff;overflow:hidden;border-top:1px solid #c39a7326}
+.principles-inner{position:relative;z-index:1;max-width:1280px;margin:auto;padding:90px 56px 32px}
+.principles-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:40px}
+.home-premium .reset-principles .eyebrow{color:#d4b18b!important;font-size:10px;letter-spacing:.2em;margin-bottom:24px}
+.home-premium .reset-principles h2#reset-principles-title{font-size:clamp(27px,2.5vw,36px);font-weight:500;line-height:1.5;letter-spacing:-.04em;color:#fff}
+.reset-principles h2 em{color:#82dccb;font-style:normal}
+.principles-intro{color:#c8d5e2;font-size:13px;line-height:2;word-break:keep-all;margin:0}
+.principles-diagram{margin-top:60px}
+.principles-diagnosis{text-align:center;position:relative;padding-bottom:40px}
+.principles-diagnosis>span{font-size:9px;color:#d4b18b;letter-spacing:.18em}
+.home-premium .principles-diagnosis h3{font-size:20px;font-weight:500;margin:12px 0 8px}
+.principles-diagnosis p{font-size:12px;color:#c8d5e2;margin:0}
+.principles-diagnosis i{position:absolute;bottom:0;left:50%;height:25px;width:1px;background:#bca183}
+/* Readable HTML cards; CSS only supplies a gentle, sequential emphasis. */
+.principles-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;position:relative}
+.principle-item{position:relative;padding:32px 26px 34px;min-width:0;background:#112140e6;border:1px solid #c39a733d;border-radius:3px;overflow:hidden;animation:principle-card 12s ease-in-out infinite;animation-delay:var(--principle-delay)}
+.principle-rule{display:block;position:absolute;top:0;left:0;right:0;height:2px;background:#82dccb;transform:scaleX(0);transform-origin:left;animation:principle-rule 12s ease-in-out infinite;animation-delay:var(--principle-delay)}
+.principle-number{display:block;font-size:40px;line-height:1;font-weight:300;letter-spacing:-.05em;color:#d4b18b;margin-bottom:38px}
+.principle-text{margin:0}
+.principle-label{display:flex;gap:13px;align-items:center;font-size:11px;color:#d4b18b;letter-spacing:.07em;margin:0 0 12px}
+.principle-label>span{font-size:9px}
+:is(.home-premium,.principles-detail) .principle-text h3{font-size:23px;font-weight:500;margin:0 0 15px;color:#fff}
+.principle-lead{font-size:13px;line-height:1.8;min-height:47px;margin:0 0 8px;word-break:keep-all;color:#e0e6ee}
+.principle-description{font-size:12px;color:#bbc9d9;line-height:1.9;word-break:keep-all;margin:0}
+.principles-closing{margin-top:38px;border-top:1px solid #c39a733d;padding-top:28px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.principles-closing p{font-size:16px;line-height:1.8;margin:0 0 7px}.principles-closing strong{font-weight:500}
+.principles-closing div>span{font-size:12px;color:#bbc9d9;line-height:1.9}
+.principles-closing a{font-size:12px;color:#e0e6ee;display:flex;gap:20px;align-items:center;white-space:nowrap;border-bottom:1px solid #bca183;padding:12px 0}.principles-closing a>span{color:#82dccb}
+.principles-caption{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:30px;color:#b8c4d4}
+.principles-caption small{font-size:9px}.principles-caption button{font:inherit;font-size:10px;color:#c8d5e2;background:transparent;border:0;padding:10px;cursor:pointer}
+.reset-principles a:focus-visible,.reset-principles button:focus-visible{outline:2px solid #15b4a2;outline-offset:5px}
+/* Content never relies on animation for visibility. */
+.reset-principles:not(.principle-visible) .principles-waves span,.motion-paused .principles-waves span,.reset-principles:not(.principle-visible) .principle-item,.reset-principles:not(.principle-visible) .principle-rule,.motion-paused .principle-item,.motion-paused .principle-rule{animation-play-state:paused}
+@keyframes principle-card{0%,28%,100%{transform:translateY(0);background:#112140e6;border-color:#c39a733d;box-shadow:0 0 0 transparent}7%,19%{transform:translateY(-4px);background:#172d4d;border-color:#82dccb99;box-shadow:0 12px 28px #00000018}}
+@keyframes principle-rule{0%{transform:scaleX(0);opacity:0}5%{opacity:1}21%{transform:scaleX(1);opacity:1}28%,100%{transform:scaleX(1);opacity:0}}
+@media(max-width:1000px){.principles-inner{position:relative;z-index:1;padding:75px 32px 28px}.principles-heading{align-items:flex-start;flex-direction:column;gap:22px}.principles-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.principles-closing{align-items:flex-start;flex-direction:column}.principle-lead{min-height:0}}
+@media(max-width:640px){.principles-inner{position:relative;z-index:1;padding:64px 24px 24px}.home-premium .reset-principles h2#reset-principles-title{font-size:26px}.principles-intro{font-size:12px}.principles-desktop-break{display:none}.principles-diagram{margin-top:38px}.principles-grid{grid-template-columns:1fr;gap:14px}.principles-diagnosis{padding-bottom:32px}.principle-item{padding:26px 22px;display:grid;grid-template-columns:42px minmax(0,1fr);gap:20px}.principle-number{font-size:30px;margin:0}.principle-label{font-size:10px}:is(.home-premium,.principles-detail) .principle-text h3{font-size:21px;margin-bottom:12px}.principle-lead{font-size:13px;min-height:0}.principle-description{font-size:12px}.principles-closing{margin-top:30px}.principles-closing p{font-size:15px}.principles-caption{align-items:flex-start}.principles-caption button{white-space:nowrap;padding:0}.principles-caption small{line-height:1.8}}
+@media(prefers-reduced-motion:reduce){.reset-principles *{animation:none!important;transition:none!important}.principles-caption button{display:none}}
+
+/* Decorative HTML lines stay behind the readable content. */
+.principles-waves{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0;background:radial-gradient(ellipse at 90% 50%,#82dccb08,transparent 65%)}
+.principles-waves span{position:absolute;width:140%;height:70%;left:-20%;top:24%;border:1px solid #82dccb17;border-radius:50%;transform:rotate(-13deg);animation:principles-wave-drift 32s ease-in-out infinite alternate}
+.principles-waves span:nth-child(2){top:30%;border-color:#d4b18b14;animation-delay:-11s;animation-duration:38s}
+.principles-waves span:nth-child(3){top:37%;border-color:#82dccb10;animation-delay:-21s;animation-duration:44s}
+@keyframes principles-wave-drift{from{transform:translate3d(-2%,-2%,0) rotate(-13deg) scale(1)}to{transform:translate3d(3%,4%,0) rotate(-5deg) scale(1.06)}}
+@media(prefers-reduced-motion:reduce){.principles-waves span{animation:none!important}}
