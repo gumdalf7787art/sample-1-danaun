@@ -6,9 +6,9 @@ Next.js를 OpenNext로 변환하여 Workers에 배포합니다. Pages의 Static 
 
 | 항목 | 값 |
 | --- | --- |
-| GitHub 저장소 | gumdalf7787art/resetclinic |
+| GitHub 저장소 | gumdalf7787art/sample-1-danaun |
 | Production branch | main |
-| Project name | resetclinic |
+| Project name | sample-1-danaun |
 | Root directory | 저장소 루트 (기본값 유지) |
 | Build command | npm run build:worker |
 | Deploy command | npm run deploy:worker |
@@ -47,3 +47,12 @@ glob/minimatch overrides는 배포 도구의 간접 의존성 보안 수정 버�
 2026-11-09 검증: 동일 소스의 OpenNext 빌드 완료, `wrangler deploy --dry-run` 통과(압축 번들 약 1.94 MiB), 로컬 workerd에서 공개 화면·자산·404·인증 차단 12개 응답 확인, 단위 테스트 9개 통과, npm audit 0건. HTTP 검증은 `node scripts/check-worker.mjs`로 재실행할 수 있습니다. 실제 Cloudflare 계정에 업로드한 결과는 아니며, 최초 Deploy 후 대시보드 로그와 배포 URL을 확인해야 합니다.
 
 참고: https://opennext.js.org/cloudflare/get-started
+
+## 2026-11-20 배포 수정
+
+이 저장소는 sample-1-danaun 전용 Worker를 사용합니다. 기존 resetclinic Worker에 배포하지 않습니다.
+
+- Worker URL: https://sample-1-danaun.gumdalf7787.workers.dev
+- Build 환경변수 SITE_URL도 위 주소로 지정합니다.
+- Build 및 런타임 SITE_INDEXING=false: 샘플 사이트 검색 색인 제외.
+- Pages에 빌드 없이 소스 루트를 올리면 홈페이지가 실행되지 않습니다.

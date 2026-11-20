@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "resetclinic",
+  "name": "sample-1-danaun",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-11-08",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
@@ -9,11 +9,11 @@
     "binding": "ASSETS"
   },
   "services": [
-    { "binding": "WORKER_SELF_REFERENCE", "service": "resetclinic" }
+    { "binding": "WORKER_SELF_REFERENCE", "service": "sample-1-danaun" }
   ],
   "vars": {
-    "SITE_URL": "https://resetclinic.gumdalf7787.workers.dev",
-    "SITE_INDEXING": "true",
+    "SITE_URL": "https://sample-1-danaun.gumdalf7787.workers.dev",
+    "SITE_INDEXING": "false",
     "INSIGHTS_STORAGE": "disabled"
   },
   "observability": { "enabled": true }
