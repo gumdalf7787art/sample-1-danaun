@@ -6,7 +6,7 @@ export default function RegenConcepts() {
       <div className="section regen-comparison">
        <div className="regen-comparison-content">
         <div className="regen-principles-intro">
-          <p className="eyebrow">DANAUN REGEN</p>
+          <p className="eyebrow">주사치료</p>
           <h2 id="regen-science-title" className="center-title-line">PRF와 무릎 SVF, <em>무엇이 다를까요?</em></h2>
           <p className="section-intro">어떤 성분을 사용하는지, 무엇을 확인해야 하는지 설명합니다.</p>
         </div>

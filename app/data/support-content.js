@@ -101,14 +101,14 @@ export const faqGroups = [
 
 export const aftercare = [
   {
-    id: 'injection', title: '주사치료 후', intro: '리젠 주사·PRP 등 시술 후에는 시술 부위와 사용한 성분에 따라 받은 안내를 확인해 주세요.',
+    id: 'injection', title: '주사치료 후', intro: '맞춤 주사치료·PRP 등 시술 후에는 시술 부위와 사용한 성분에 따라 받은 안내를 확인해 주세요.',
     items: [
       '주사 부위의 통증, 붓기, 열감이 어떻게 변하는지 살피세요. 드레싱 관리와 샤워 시점은 시술 후 받은 지침을 따르세요.',
       '운동과 업무 강도는 시술 부위와 현재 상태에 맞춰 조절하세요. 처방약이나 평소 복용하는 약의 변경은 의료진에게 확인하세요.',
       '통증이 심해지거나 붓기·붉어짐·열감이 늘고, 발열이나 오한이 있으면 시술한 의료기관에 바로 연락해 진료를 받으세요.',
       '다음 진료에는 통증이 달라진 시점과 걷기·계단·팔 들기처럼 원래 불편했던 동작의 변화를 알려주세요.',
     ],
-    links: [['리젠 주사 치료 전후 안내', '/regen/injection#aftercare'], ['PRP·PRF 치료 전후 안내', '/regen/prp-prf#safety'], ['영국 RNOH 초음파 유도 주사 안내', 'https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/ultrasound-guided-injection-patients-guide']],
+    links: [['맞춤 주사치료 전후 안내', '/regen/injection#aftercare'], ['PRP·PRF 치료 전후 안내', '/regen/prp-prf#safety'], ['영국 RNOH 초음파 유도 주사 안내', 'https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/ultrasound-guided-injection-patients-guide']],
   },
   {
     id: 'knee-svf', title: '무릎 SVF 시술 후', intro: '지방을 채취한 부위와 주사를 맞은 무릎을 각각 살펴주세요.',

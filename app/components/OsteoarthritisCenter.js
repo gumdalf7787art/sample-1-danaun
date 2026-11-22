@@ -14,7 +14,7 @@ const faqLinks = {
   11: ['/regen/prp-prf', 'PRP·PRF 알아보기'],
   12: ['/regen/prp-prf', 'PRP와 PRF의 차이'],
   13: ['/regen/knee-svf', '무릎 SVF 대상과 과정'],
-  14: ['/regen/injection', '리젠 주사 안내'],
+  14: ['/regen/injection', '맞춤 주사치료 안내'],
   23: ['#exercise', '운동과 생활 관리'],
 };
 
@@ -229,7 +229,7 @@ export default function OsteoarthritisCenter() {
             {copy.injectionQuestions.map(([title, body]) => <article key={title} data-ro-reveal><h3>{title}</h3><p><Copy text={body}/></p></article>)}
           </div>
           <div className="care-regen-links">
-            <h3>DANAUN REGEN과 연결해 알아보기</h3>
+            <h3>주사치료과 연결해 알아보기</h3>
             <ul>{copy.injectionLinks.map(([title, body, href]) => <li key={title}><Link href={href}>{title}</Link><p>{body}</p></li>)}</ul>
             <Link href="/regen/principles">주사 성분 설명 원칙</Link>
           </div>

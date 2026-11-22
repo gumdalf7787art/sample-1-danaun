@@ -11,7 +11,7 @@ import RecoveryBeam from './RecoveryBeam';
 
 const options = [
   {
-    name: '리젠 주사',
+    name: '맞춤 주사치료',
     feature: '진단에 맞춘 주사치료',
     description: '진찰과 필요한 초음파 평가로 통증에 관여하는 인대·힘줄 등 조직을 살핍니다. 진단과 조직 상태에 따라 주사치료가 필요한지 검토하고, 선택한 성분과 목적을 설명합니다.',
     image: 'regen-injection-lumbar.webp',
@@ -70,16 +70,16 @@ const steps = [
  ['운동치료·생활 관리','오래 쓰는 관절을 위해 재활과 생활 관리를 함께 설계합니다.'],
 ];
 const faqGroups = [
- {title:'DANAUN REGEN의 이해', items:[
-  ['DANAUN REGEN은 어떤 치료인가요?', '한 종류의 주사나 모든 사람에게 같은 치료를 제공하는 상품이 아닙니다. 조직 상태와 움직임을 평가해 주사치료의 필요성을 검토하고, 치료 이후의 재평가와 재활까지 연결하는 진료 방향입니다.'],
-  ['리젠 주사·PRP·PRF·무릎 SVF는 어떻게 다른가요?', '리젠 주사는 진단에 맞춰 검토하는 주사치료 프로그램의 이름입니다. PRP와 PRF는 자신의 혈액에서, SVF는 지방 조직에서 얻는 성분을 활용합니다. 원료와 준비 방법, 적용 대상과 시술 부담이 달라 같은 치료로 볼 수 없습니다.'],
+ {title:'주사치료의 이해', items:[
+  ['다나은의 주사치료는 어떻게 진행하나요?', '한 종류의 주사나 모든 사람에게 같은 치료를 제공하는 상품이 아닙니다. 조직 상태와 움직임을 평가해 주사치료의 필요성을 검토하고, 치료 이후의 재평가와 재활까지 연결하는 진료 방향입니다.'],
+  ['맞춤 주사치료·PRP·PRF·무릎 SVF는 어떻게 다른가요?', '맞춤 주사치료는 진단에 따라 성분과 방법을 검토하는 과정입니다. PRP와 PRF는 자신의 혈액에서, SVF는 지방 조직에서 얻는 성분을 활용합니다. 원료와 준비 방법, 적용 대상과 시술 부담이 달라 같은 치료로 볼 수 없습니다.'],
   ['재생치료를 받으면 손상된 조직이 원래대로 돌아오나요?', '손상된 조직이 원래 상태로 돌아온다고 보장할 수는 없습니다. 통증과 기능의 개선, 조직의 구조적 회복은 구분해야 합니다. 기대할 수 있는 변화와 한계를 설명하고 실제 경과를 확인합니다.'],
   ['통증이 있는 사람이라면 누구나 받을 수 있나요?', '통증이 있다는 이유만으로 주사치료가 필요한 것은 아닙니다. 원인과 손상 정도, 건강 상태와 이전 치료 반응을 살펴 운동·생활 관리, 약물·물리치료 등 다른 선택지도 함께 검토합니다.']
  ]},
- {title:'리젠 주사', items:[
-  ['리젠 주사에는 어떤 성분이 들어가나요?', '리젠 주사는 하나의 고정된 약제명이 아닙니다. 진단과 조직 상태에 따라 검토하는 성분이 달라지므로, 시술 전에 실제 제품과 성분, 적용 부위와 목적을 설명합니다. 여러 성분을 일괄 혼합한다는 뜻도 아닙니다.'],
-  ['리젠 주사에는 스테로이드가 들어가나요?', '다나은은 환자에게 설명되지 않은 스테로이드 사용 여부를 사전에 설명합니다. 스테로이드가 무조건 제외된다는 뜻은 아니며, 필요한 경우 사용 목적과 이득·위험, 다른 선택지를 설명한 뒤 함께 결정합니다.'],
-  ['일반적인 통증 주사와 리젠 주사는 무엇이 다른가요?', '주사의 이름만으로 성분이나 효과를 구분할 수는 없습니다. 실제 성분과 시술 방법, 통증·염증 조절 등 치료 목적을 확인해야 합니다. 다나은은 주사 선택뿐 아니라 치료 후 기능 평가와 재활 계획도 함께 살핍니다.']
+ {title:'맞춤 주사치료', items:[
+  ['맞춤 주사치료에는 어떤 성분이 들어가나요?', '맞춤 주사치료는 하나의 고정된 약제명이 아닙니다. 진단과 조직 상태에 따라 검토하는 성분이 달라지므로, 시술 전에 실제 제품과 성분, 적용 부위와 목적을 설명합니다. 여러 성분을 일괄 혼합한다는 뜻도 아닙니다.'],
+  ['맞춤 주사치료에는 스테로이드가 들어가나요?', '다나은은 스테로이드 사용 여부와 이유를 치료 전에 설명합니다. 스테로이드가 무조건 제외된다는 뜻은 아니며, 필요한 경우 사용 목적과 이득·위험, 다른 선택지를 설명한 뒤 함께 결정합니다.'],
+  ['주사치료마다 어떤 점이 다른가요?', '주사의 이름만으로 성분이나 효과를 구분할 수는 없습니다. 실제 성분과 시술 방법, 통증·염증 조절 등 치료 목적을 확인해야 합니다. 다나은은 주사 선택뿐 아니라 치료 후 기능 평가와 재활 계획도 함께 살핍니다.']
  ]},
  {title:'PRP · PRF', items:[
   ['PRP는 내 혈액을 이용하는 치료인가요?', '네. 자신의 혈액을 채취한 뒤 혈소판이 풍부한 혈장을 분리해 활용합니다. 준비 방법에 따라 성분 구성이 달라질 수 있으며, 자가혈을 사용한다고 모든 질환에 적합하거나 효과가 보장되는 것은 아닙니다.'],
@@ -108,9 +108,9 @@ export default function RegenOverview(){
   <section className="ro-hero" aria-labelledby="ro-title">
    <picture className="ro-hero-image"><source media="(max-width:640px)" srcSet="/images/hero-regen-depth-mobile.webp"/><img src="/images/hero-regen-depth.webp" alt="" fetchPriority="high"/></picture>
    <div className="ro-hero-content">
-    <p className="ro-label" lang="en">DANAUN REGEN</p>
-    <p className="ro-hero-sub">다나은재활의학과 맞춤형 조직 회복 프로그램</p>
-    <h1 id="ro-title"><em>재생치료 소개</em></h1>
+    <p className="ro-label" lang="en">INJECTION THERAPY</p>
+    <p className="ro-hero-sub">다나은재활의학과의 주사치료와 재활</p>
+    <h1 id="ro-title"><em>주사치료 안내</em></h1>
     <p>조직의 상태에 맞는 치료를 선택하고,<br/>치료 이후의 재평가와 재활까지 함께합니다.</p>
    </div>
   </section>
@@ -118,8 +118,8 @@ export default function RegenOverview(){
   <section className="ro-intro ro-concept ro-band" id="understand" aria-labelledby="ro-concept-title">
     <div className="ro-wrap">
       <div className="ro-concept-definition">
-        <h2 id="ro-concept-title" data-ro-title><span lang="en">DANAUN REGEN</span>은 무엇인가요?</h2>
-        <p>DANAUN REGEN은 다나은재활의학과의원의 맞춤형 조직 회복 프로그램입니다.</p><p>정밀한 진찰과 초음파 평가를 바탕으로 통증에 관여하는 조직의 상태를 살피고, 환자에게 적합한 치료와 재활을 함께 설계합니다.</p>
+        <h2 id="ro-concept-title" data-ro-title>어떤 기준으로 <span>주사치료</span>를 결정하나요?</h2>
+        <p>통증의 원인과 움직임을 평가한 뒤 주사치료가 필요한지 살핍니다.</p><p>정밀한 진찰과 초음파 평가를 바탕으로 통증에 관여하는 조직의 상태를 살피고, 환자에게 적합한 치료와 재활을 함께 설계합니다.</p>
       </div>
       <div className="ro-concept-approach" data-ro-reveal>
         <p className="ro-label" lang="en">THE DANAUN APPROACH</p>
@@ -141,7 +141,7 @@ export default function RegenOverview(){
   <ResetBrandMeaning/>
   <section className="ro-why ro-band" id="why-regen" aria-labelledby="ro-why-title">
     <div className="ro-wrap">
-      <div className="ro-heading ro-why-heading"><p className="ro-label">WHY REGEN</p><h2 id="ro-why-title" data-ro-title>왜 조직의 회복까지 생각할까요?</h2><div data-ro-reveal><h3 className="ro-why-statement">통증이 줄었다고,<br/><em>다 나은 것은 아닙니다.</em></h3><p>통증이 사라지는 것과 손상된 조직이 회복되는 것은 다를 수 있습니다.</p><p>다나은은 통증의 변화뿐 아니라 인대·힘줄 등 관련 조직의 상태와 움직임을 함께 살피고,<br className="ro-desktop-break"/> 치료 이후에도 경과를 확인합니다.</p></div></div>
+      <div className="ro-heading ro-why-heading"><p className="ro-label">BEYOND PAIN RELIEF</p><h2 id="ro-why-title" data-ro-title>왜 조직의 회복까지 생각할까요?</h2><div data-ro-reveal><h3 className="ro-why-statement">통증이 줄었다고,<br/><em>다 나은 것은 아닙니다.</em></h3><p>통증이 사라지는 것과 손상된 조직이 회복되는 것은 다를 수 있습니다.</p><p>다나은은 통증의 변화뿐 아니라 인대·힘줄 등 관련 조직의 상태와 움직임을 함께 살피고,<br className="ro-desktop-break"/> 치료 이후에도 경과를 확인합니다.</p></div></div>
       <div className="ro-comparison ro-comparison-photos">
         {[
           ['pain','01 · PAIN','통증의 변화','현재 느끼는 불편감과 일상생활에서의 통증 변화를 확인합니다.','무릎의 불편감을 살피는 모습을 표현한 예시'],
@@ -156,7 +156,7 @@ export default function RegenOverview(){
   <section className="ro-personal ro-personal-parallax ro-band" id="personalized-program" aria-labelledby="ro-personal-title">
     <div className="journey-backdrop" aria-hidden="true"><img src="/images/regen-personal-dna.webp" width="1672" height="941" alt="" loading="lazy" decoding="async"/></div>
     <div className="ro-wrap ro-personal-layout">
-      <div className="ro-personal-copy"><p className="ro-label">PERSONALIZED RECOVERY PROGRAM</p><h2 id="ro-personal-title">같은 통증이라도,<br/><em>치료는 달라질 수 있습니다.</em></h2><p>같은 무릎 통증이라도 손상된 조직과 상태가 다르면 치료도 달라집니다.</p><p>DANAUN REGEN은 초음파 평가와 진찰 결과를 바탕으로 여러 주사치료 중 적합한 방법을 검토하고, 운동치료와 생활 관리를 함께 고려하는 맞춤형 프로그램입니다.</p></div>
+      <div className="ro-personal-copy"><p className="ro-label">PERSONALIZED RECOVERY PROGRAM</p><h2 id="ro-personal-title">같은 통증이라도,<br/><em>치료는 달라질 수 있습니다.</em></h2><p>같은 무릎 통증이라도 손상된 조직과 상태가 다르면 치료도 달라집니다.</p><p>주사치료은 초음파 평가와 진찰 결과를 바탕으로 여러 주사치료 중 적합한 방법을 검토하고, 운동치료와 생활 관리를 함께 고려하는 맞춤형 프로그램입니다.</p></div>
       <ol className="ro-personal-steps">
         {[
           ['조직 상태 확인','인대·힘줄·관절과 움직임 평가'],
@@ -220,7 +220,7 @@ export default function RegenOverview(){
   </section>
   <section className="ro-faq ro-faq-expanded ro-band" id="regen-faq" aria-labelledby="ro-faq-title">
     <div className="ro-wrap ro-faq-grid">
-      <div className="ro-faq-heading"><p className="ro-label">QUESTIONS &amp; ANSWERS</p><h2 id="ro-faq-title">FAQ</h2><p>치료를 이해하고,<br/>충분히 알고 선택하도록.</p><span>DANAUN REGEN · 20가지 질문</span></div>
+      <div className="ro-faq-heading"><p className="ro-label">QUESTIONS &amp; ANSWERS</p><h2 id="ro-faq-title">FAQ</h2><p>치료를 이해하고,<br/>충분히 알고 선택하도록.</p><span>주사치료 · 20가지 질문</span></div>
       <div className="ro-faq-groups">
         {faqGroups.map((group, groupIndex) => <section className="ro-faq-group" key={group.title} aria-labelledby={'ro-faq-group-' + groupIndex}>
           <h3 id={'ro-faq-group-' + groupIndex}>{group.title}</h3>
@@ -237,7 +237,7 @@ export default function RegenOverview(){
     </div>
   </section>
   <aside id="references" className="ro-review ro-wrap" aria-label="참고 자료와 검토 안내">
-    <p>병원 제공 기획안과 기존 DANAUN REGEN 자료를 바탕으로 구성한 일반 정보입니다. 실제 시행 여부와 개인별 치료 계획은 진료에서 확인합니다.</p>
+    <p>주사치료에 관한 일반 안내입니다. 실제 시행 여부와 개인별 치료 계획은 진료에서 확인합니다.</p>
     <p>의료진 검토 완료</p>
     <ul className="regen-overview-references">
       {researchSources.map(({id, label, href}) => <li key={id} id={'regen-source-' + id}>

@@ -97,8 +97,8 @@ function keyedRows(rows, prefix) {
 }
 
 const pages = [
-  ['regen', '재생치료 소개', '/regen', keyedRows(researchSources.map(({id, label, href}) => [id, label, href]), 'regen-source-')],
-  ['regen', '리젠 주사', '/regen/injection', pairRows(injectionSources)],
+  ['regen', '주사치료 안내', '/regen', keyedRows(researchSources.map(({id, label, href}) => [id, label, href]), 'regen-source-')],
+  ['regen', '맞춤 주사치료', '/regen/injection', pairRows(injectionSources)],
   ['regen', 'PRP·PRF', '/regen/prp-prf', plateletSources.map(([id, institution, links]) => ({
     title: institution + ' · ' + links[0][0], links, section: 'ref-' + id, type: plateletTypes[id],
   }))],

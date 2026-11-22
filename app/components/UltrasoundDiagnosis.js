@@ -156,7 +156,7 @@ export default function UltrasoundDiagnosis() {
           <Heading id="us-guided" label="DIAGNOSIS & TREATMENT" intro="유도 주사는 치료가 필요할 때 영상으로 시술 위치와 주변 구조를 확인하는 방법입니다. 시술 여부는 검사 이후 별도로 상의합니다.">초음파 진단과 유도 주사,<br/><em>목적을 구분합니다.</em></Heading>
           <div data-ro-reveal><Table caption="초음파 진단과 초음파 유도 주사 비교" data={copy.injection}/></div>
           <div className="care-safety us-safety" data-ro-reveal><p>주사 시술에는 부위와 약제에 따라 통증, 멍, 출혈, 감염, 알레르기 반응이나 주변 조직 손상 등의 위험이 있을 수 있습니다. 현재 복용약과 과거 반응을 확인한 뒤 시술별 주의사항을 설명합니다.</p></div>
-          <div className="care-links"><Link href="/regen/injection">리젠 주사 선택 과정</Link><Link href="/regen">재생치료 소개</Link></div>
+          <div className="care-links"><Link href="/regen/injection">맞춤 주사치료 선택 과정</Link><Link href="/regen">주사치료 안내</Link></div>
         </div>
       </section>
 

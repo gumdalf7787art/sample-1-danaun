@@ -8,7 +8,7 @@ import './principles.css';
 const path = '/about/principles';
 const title = '다나은 4원칙';
 const summary = '통증의 원인을 살피고, 다시 하고 싶은 일상을 함께 생각합니다.';
-const description = '다나은재활의학과의원의 원인 평가·성분 설명·맞춤 치료·회복 관리와 DANAUN REGEN, 센터별 대표 프로그램을 소개합니다.';
+const description = '다나은재활의학과의원의 원인 평가·성분 설명·맞춤 치료·회복 관리와 주사치료, 센터별 대표 프로그램을 소개합니다.';
 
 export const metadata = pageMeta(path, title + ' | 다나은재활의학과의원', description);
 
@@ -24,7 +24,7 @@ const careStandards = [
   {
     name: '성분 설명',
     question: '무엇을 왜 사용하나요?',
-    detail: '주사를 검토할 때는 성분과 사용 목적, 대안과 주의점을 먼저 설명합니다. 환자에게 설명되지 않은 스테로이드 사용 여부를 사전에 설명합니다.',
+    detail: '주사를 검토할 때는 성분과 사용 목적, 대안과 주의점을 먼저 설명합니다. 스테로이드 사용 여부와 이유를 치료 전에 설명합니다.',
     takeaway: '무엇을 맞는지, 알고 맞으셔야 합니다.',
     link: ['주사 성분 설명 원칙 보기', '/regen/principles'],
     icon: 'M6 3.5h8l4 4v13H6v-17Zm8 0v4h4M9 12h6m-6 4h6',
@@ -117,13 +117,13 @@ export default function PrinciplesPage() {
         <section className="ro-band about-dark pd-regen" id="reset-regen" aria-labelledby="pd-regen-title">
           <div className="ro-wrap ro-split">
             <div data-ro-reveal>
-              <p className="ro-label">다나은의 특화 진료 · DANAUN REGEN</p>
+              <p className="ro-label">다나은의 진료 · 주사치료</p>
               <h2 id="pd-regen-title">통증 치료를 넘어,<br/><em>조직의 회복을 설계합니다.</em></h2>
-              <p>DANAUN REGEN은 다나은재활의학과의원의 맞춤형 조직 회복 프로그램입니다. 진찰과 필요한 초음파 평가를 바탕으로 통증에 관여하는 조직을 살피고, 환자에게 적합한 치료와 재활을 함께 설계합니다.</p>
+              <p>다나은은 진찰 결과에 따라 주사치료가 필요한지 살핍니다. 진찰과 필요한 초음파 평가를 바탕으로 통증에 관여하는 조직을 살피고, 환자에게 적합한 치료와 재활을 함께 설계합니다.</p>
               <ol className="pd-regen-flow" role="list">
                 <li>평가</li><li>설명과 선택</li><li>재활과 경과 확인</li>
               </ol>
-              <a className="ro-link" href="/regen">재생치료 소개 보기 <span aria-hidden="true">↗</span></a>
+              <a className="ro-link" href="/regen">주사치료 안내 보기 <span aria-hidden="true">↗</span></a>
             </div>
             <img data-ro-reveal src="/images/regen-ultrasound-focus-1120.webp"
               srcSet="/images/regen-ultrasound-focus-640.webp 640w, /images/regen-ultrasound-focus-1120.webp 1120w"

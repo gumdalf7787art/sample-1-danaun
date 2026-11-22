@@ -59,7 +59,7 @@ export default function RegenKneeSvf() {
             <img src="/images/home-knee-svf-diagram.webp" alt="" fetchPriority="high"/>
           </picture>
           <div className="ro-hero-content">
-            <p className="ro-label rp-hero-label" lang="en">DANAUN REGEN · KNEE SVF</p>
+            <p className="ro-label rp-hero-label" lang="en">KNEE SVF</p>
             <p className="ro-hero-sub">자가지방유래 기질혈관분획 관절강내 주사</p>
             <h1 id="svf-title"><em>무릎 SVF</em></h1>
             <div className="ri-hero-summary">
@@ -232,7 +232,7 @@ export default function RegenKneeSvf() {
         <section className="ro-band ro-faq ro-faq-expanded" id="faq" aria-labelledby="ro-faq-title">
           <span id="regen-faq" className="rp-anchor"/>
           <div className="ro-wrap ro-faq-grid">
-            <div className="ro-faq-heading"><p className="ro-label" lang="en">QUESTIONS &amp; ANSWERS</p><h2 id="ro-faq-title">FAQ</h2><p>무릎 SVF에 대해<br/>자주 묻는 질문</p><span>DANAUN REGEN · 18가지 질문</span></div>
+            <div className="ro-faq-heading"><p className="ro-label" lang="en">QUESTIONS &amp; ANSWERS</p><h2 id="ro-faq-title">FAQ</h2><p>무릎 SVF에 대해<br/>자주 묻는 질문</p><span>주사치료 · 18가지 질문</span></div>
             <div className="ro-faq-groups">
               {faqGroups.map(([label, items, start]) => (
                 <section className="ro-faq-group" key={label}>

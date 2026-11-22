@@ -101,7 +101,7 @@ export default function RegenPrpPrf() {
           </picture>
           <div className="ro-hero-content">
             <p className="ro-label rp-hero-label" lang="en">AUTOLOGOUS BLOOD-DERIVED PREPARATIONS</p>
-            <p className="ro-hero-sub">DANAUN REGEN · 자가혈액 유래 제제</p>
+            <p className="ro-hero-sub">주사치료 · 자가혈액 유래 제제</p>
             <h1 id="rp-title"><em>PRP·PRF</em></h1>
             <p>내 혈액에서 시작하는 치료, 나의 움직임까지 생각합니다.<br/>통증의 원인과 조직 상태를 평가하고, 제제의 특성과 적용 조건을 설명한 뒤 회복 계획을 함께 세웁니다.</p>
             <div className="ro-hero-links">
@@ -117,7 +117,7 @@ export default function RegenPrpPrf() {
             <div className="rp-summary-layout">
               <div className="rp-summary-copy">
                 <div data-ro-reveal>
-                  <p className="ro-label" lang="en">DANAUN REGEN</p>
+                  <p className="ro-label" lang="en">INJECTION THERAPY</p>
                   <h2 id="summary-title">같은 자가혈액에서 출발하지만,<br/><em>제제의 특성은 다릅니다.</em></h2>
                 </div>
                 <article className="rp-summary-row" data-ro-reveal data-ro-reveal-delay={0}>

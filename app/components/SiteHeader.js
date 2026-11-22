@@ -19,7 +19,7 @@ export default function SiteHeader({home = false}) {
  const pathname = usePathname();
  const currentSection = pathname?.split('/')[1];
  const groups = [
-  ['DANAUN REGEN', '/regen', regenLinks],
+  ['주사치료', '/regen', regenLinks],
   ['치료 센터', '/centers/sports', centers.map(({name, slug}) => [name + ' 센터', '/centers/' + slug])],
   ['정밀 진단', '/diagnosis', diagnosisLinks],
   ['다나은 소개', '/about/doctor', aboutLinks],
@@ -86,10 +86,10 @@ export default function SiteHeader({home = false}) {
   <nav id={panelId} className="site-header-panel" aria-label="전체 메뉴" hidden={!open}>
    <div className="site-header-panel-inner">
     <div className="site-header-brand">
-     <p className="site-header-brand-name" lang="en">DANAUN REGEN</p>
+     <p className="site-header-brand-name" lang="en">DANAUN REHABILITATION</p>
      <p className="site-header-brand-message">
-      재생치료를 중심으로,<br/>
-      <span>당신의 회복을 설계합니다.</span>
+      주사치료를 중심으로,<br/>
+      <span>일상 회복을 돕습니다.</span>
      </p>
     </div>
     <div className="site-header-groups">

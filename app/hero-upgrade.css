@@ -65,7 +65,7 @@
 @media(max-width:360px){.reset-slide{padding-left:18px;padding-right:18px}.reset-display{font-size:40px}.hero .reset-slide h1,.home-premium .hero .reset-slide h2{font-size:24px}}
 @media(prefers-reduced-motion:reduce){.reset-slider .rise,.reset-slider .reset-slide-background img{animation:none!important;transform:none!important;opacity:1!important}.reset-slide{transition:none}}
 
-/* DANAUN REGEN opening slide and shared hero accents. */
+/* Injection therapy opening slide and shared hero accents. */
 .regen-hero-upgrade {
  --hero-bronze:#c39a73;
  --hero-mint:#82DCCB;

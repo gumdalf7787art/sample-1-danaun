@@ -105,14 +105,14 @@ export default function RegenInjection() {
             <img src="/images/danaun-doctor.png" alt="" fetchPriority="high"/>
           </picture>
           <div className="ro-hero-content">
-            <p className="ro-label" lang="en">DANAUN REGEN</p>
+            <p className="ro-label" lang="en">PERSONALIZED INJECTION CARE</p>
             <h1 id="injection-title"><em>{injectionTitle}</em></h1>
             <div className="ri-hero-summary">
-              <p className="ri-hero-lead">다나은재활의학과 <strong>맞춤형 조직 회복 프로그램</strong></p>
+              <p className="ri-hero-lead">다나은재활의학과 <strong>진단에 따른 맞춤 주사치료</strong></p>
               <p>통증 조절과 조직 회복을 함께 고려합니다.<br className="ro-desktop-break"/> 같은 무릎 통증이라도 손상된 조직과 상태가 다르면 치료도 달라집니다.</p>
             </div>
             <div className="ro-hero-links">
-              <a className="ro-link" href="#understand">리젠 주사 알아보기 <span aria-hidden="true">↓</span></a>
+              <a className="ro-link" href="#understand">맞춤 주사치료 알아보기 <span aria-hidden="true">↓</span></a>
               <a className="ro-link" href={booking} target="_blank" rel="noreferrer">진료 예약 <span aria-hidden="true">↗</span></a>
             </div>
           </div>
@@ -123,11 +123,11 @@ export default function RegenInjection() {
         <section className="ro-intro ro-concept ro-band" id="understand" aria-labelledby="ri-definition-title">
           <div className="ro-wrap">
             <div className="ro-concept-definition">
-              <h2 id="ri-definition-title" data-ro-title><span>리젠주사</span>란?</h2>
+              <h2 id="ri-definition-title" data-ro-title><span>맞춤 주사치료</span>란?</h2>
               <div className="ro-concept-approach" data-ro-reveal>
-                <h3>다나은재활의학과<br/><em className="ro-concept-highlight" data-ro-highlight>맞춤형 조직 회복 프로그램</em></h3>
+                <h3>다나은재활의학과<br/><em className="ro-concept-highlight" data-ro-highlight>진단에 따른 맞춤 주사치료</em></h3>
               </div>
-              <p>통증의 원인이 되는 인대·힘줄 등 손상 조직을 초음파로 살피고, 여러 주사치료 중 환자의 진단과 조직 상태에 따라 적합한 방법을 검토하는 맞춤형 복합 주사치료 프로그램입니다.</p>
+              <p>통증의 원인이 되는 인대·힘줄 등 손상 조직을 초음파로 살피고, 여러 주사치료 중 환자의 진단과 조직 상태에 따라 적합한 방법을 검토하는 진료 방식입니다.</p>
             </div>
           </div>
         </section>
@@ -135,7 +135,7 @@ export default function RegenInjection() {
         <section className="ro-band regen-editorial ri-injection-types" id="evidence">
           <div className="ro-wrap">
             <Heading label="INJECTION TYPES" description="진료에서 치료를 선택하는 기준을 이해할 수 있도록, 주사치료의 이름과 성분을 소개합니다.">
-              다나은 리젠의 <em>주사치료</em>
+              다나은의 <em>주사치료 선택지</em>
             </Heading>
             <ul className="ri-type-grid">
               {injectionTypes.map(([title, description, image], index) => (
@@ -212,7 +212,7 @@ export default function RegenInjection() {
               <p className="ro-label">BEFORE YOUR TREATMENT</p>
               <h2>무엇을 맞는지,<br/><em>알고 맞으셔야 합니다.</em></h2>
               <p>제품과 성분, 주사 부위와 목적, 기대할 수 있는 변화와 한계, 대안과 주의사항을 설명합니다. 궁금한 점을 확인한 뒤 치료 여부를 함께 결정합니다.</p>
-              <p className="ro-statement">다나은은 환자에게 설명되지 않은 스테로이드 사용 여부를 사전에 설명합니다.</p>
+              <p className="ro-statement">다나은은 스테로이드 사용 여부와 이유를 치료 전에 설명합니다.</p>
               <p>스테로이드가 필요한 경우에도 사용 목적과 이득·위험, 다른 선택지를 설명합니다.</p>
               <RegenConsentMarquee/>
               <a className="ro-link" href="/regen/principles">주사 성분 설명 원칙 자세히 보기 <span aria-hidden="true">↗</span></a>
@@ -222,8 +222,8 @@ export default function RegenInjection() {
 
         <section className="ro-band ri-procedure" id="injection-procedure">
           <div className="ro-wrap">
-            <Heading label="DURING YOUR INJECTION" description="리젠 주사가 적합하다고 판단하고 환자가 동의하면, 진료에서 정한 부위와 방법에 따라 시술을 진행합니다.">
-              리젠 주사는 <em>어떻게 진행하나요?</em>
+            <Heading label="DURING YOUR INJECTION" description="맞춤 주사치료가 적합하다고 판단하고 환자가 동의하면, 진료에서 정한 부위와 방법에 따라 시술을 진행합니다.">
+              맞춤 주사치료는 <em>어떻게 진행하나요?</em>
             </Heading>
             <div className="ri-scene-layout">
               <InjectionPhoto image="shoulder-procedure" direction="left"
@@ -286,7 +286,7 @@ export default function RegenInjection() {
             <div className="ro-faq-heading">
               <p className="ro-label">QUESTIONS &amp; ANSWERS</p>
               <h2 id="ro-faq-title">FAQ</h2>
-              <p>리젠 주사에 대해 궁금한 점</p>
+              <p>맞춤 주사치료에 대해 궁금한 점</p>
             </div>
             <div className="ro-faq-groups">
               {Object.entries(injectionFaqGroups).map(([group, entries], groupIndex) => (

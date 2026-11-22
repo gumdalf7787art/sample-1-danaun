@@ -201,7 +201,7 @@ export default function SpineCenter() {
             </div>
             <Rows items={copy.consent} className="ro-personal-steps"/>
           </div>
-          <div className="spine-injection-link"><p>{copy.injectionConnection}</p><Link href="/regen/injection">리젠 주사의 선택 원칙</Link></div>
+          <div className="spine-injection-link"><p>{copy.injectionConnection}</p><Link href="/regen/injection">맞춤 주사치료의 선택 원칙</Link></div>
         </div>
       </section>
 

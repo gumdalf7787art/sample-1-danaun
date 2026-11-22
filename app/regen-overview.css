@@ -529,7 +529,7 @@
 .recovery-beam{background:#0b1738;border:1px solid #d4b18b40;border-radius:22px;padding:30px 20px 12px}.recovery-beam-map{width:100%}
 @media(max-width:640px){.recovery-beam{padding:24px 6px 8px;border-radius:16px}.recovery-beam-node{width:clamp(72px,23vw,90px)}.recovery-beam-patient{width:80px;height:80px}}
 
-/* Injection detail uses the shared REGEN section layout and reveal timing. */
+/* Injection detail uses the shared injection therapy layout and reveal timing. */
 .regen-injection .ro-hero-image img { object-position: center 42%; }
 .ri-hero-summary {
   color: #d2dbe5;

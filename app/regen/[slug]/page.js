@@ -21,17 +21,17 @@ export async function generateMetadata({params}) {
  if (slug === 'prp-prf') return pageMeta('/regen/prp-prf', prpPrfTitle, prpPrfDescription);
  if (slug === 'knee-svf') return pageMeta('/regen/knee-svf', kneeSvfTitle, kneeSvfDescription);
  const page = regenPages[slug];
- return pageMeta('/regen/' + slug, page ? `${page.name} | DANAUN REGEN · 다나은재활의학과의원` : '페이지를 찾을 수 없습니다', page?.intro);
+ return pageMeta('/regen/' + slug, page ? `${page.name} | 주사치료 · 다나은재활의학과의원` : '페이지를 찾을 수 없습니다', page?.intro);
 }
 export default async function Page({params}) {
  const {slug} = await params;
  const page = regenPages[slug];
  if (!page || slug === 'overview') notFound();
  if (slug === 'knee-svf') {
-  return <><PageData path="/regen/knee-svf" name="무릎 SVF" medicalDescription={kneeSvfDescription} breadcrumbParent={{name: 'DANAUN REGEN', path: '/regen'}}/><RegenKneeSvf/></>;
+  return <><PageData path="/regen/knee-svf" name="무릎 SVF" medicalDescription={kneeSvfDescription} breadcrumbParent={{name: '주사치료', path: '/regen'}}/><RegenKneeSvf/></>;
  }
  if (slug === 'prp-prf') {
-  return <><PageData path="/regen/prp-prf" name="PRP·PRF" medicalDescription={prpPrfDescription} breadcrumbParent={{name: 'DANAUN REGEN', path: '/regen'}}/><RegenPrpPrf/></>;
+  return <><PageData path="/regen/prp-prf" name="PRP·PRF" medicalDescription={prpPrfDescription} breadcrumbParent={{name: '주사치료', path: '/regen'}}/><RegenPrpPrf/></>;
  }
- return <><PageData path={'/regen/' + slug} name={page.name} medicalDescription={slug === 'injection' ? injectionDescription : page.intro} breadcrumbParent={{name: 'DANAUN REGEN', path: '/regen'}}/>{slug === 'injection' ? <RegenInjection/> : <RegenPage slug={slug}/>}</>;
+ return <><PageData path={'/regen/' + slug} name={page.name} medicalDescription={slug === 'injection' ? injectionDescription : page.intro} breadcrumbParent={{name: '주사치료', path: '/regen'}}/>{slug === 'injection' ? <RegenInjection/> : <RegenPage slug={slug}/>}</>;
 }

@@ -6,11 +6,11 @@ import {pageMeta} from './data/seo';
 const searchMetadata = pageMeta(
   '/',
   '다나은재활의학과의원 | 정밀 진단과 재활',
-  '다나은재활의학과의원 샘플 사이트. 통증 평가, 근골격계 초음파, 재생치료와 운동재활 안내 및 진료시간·예약을 확인하세요.',
+  '다나은재활의학과의원 샘플 사이트. 통증 평가, 근골격계 초음파, 주사치료와 운동재활 안내 및 진료시간·예약을 확인하세요.',
 );
 const shareCopy = {
-  title: '다나은재활의학과의원 | DANAUN REGEN | 재생치료 PRP 재활',
-  description: '정밀 진단과 치료, 운동재활 안내',
+  title: '다나은재활의학과의원 | 주사치료와 재활',
+  description: '통증 원인 평가부터 주사치료와 운동재활까지.',
 };
 
 export const metadata = {

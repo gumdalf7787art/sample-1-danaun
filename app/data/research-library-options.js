@@ -8,7 +8,7 @@ export const other = '기타 참고자료';
 
 export const researchTypes = [guide, review, trial, lab, policy, info, other];
 export const researchGroups = [
-  ['regen', 'DANAUN REGEN'],
+  ['regen', '주사치료'],
   ['centers', '치료센터'],
   ['diagnosis', '정밀 진단'],
   ['insights', '다나은 인사이트'],

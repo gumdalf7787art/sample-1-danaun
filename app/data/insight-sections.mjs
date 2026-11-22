@@ -4,7 +4,7 @@ export const insightSections = [
   {id:'questions', name:'묻고 답하기', en:'QUESTIONS & ANSWERS', description:'진료 전후 자주 궁금해하는 내용을 질문별로 찾아보세요.'},
   {id:'exercise', name:'홈운동 라이브러리', en:'HOME EXERCISE', description:'관심 있는 부위의 운동 영상과 운동 전후에 확인할 내용을 모았습니다.'},
   {id:'media', name:'방송 - 언론', en:'MEDIA ARCHIVE', description:'샘플 의료진의 방송 출연 화면과 언론 보도 자료를 살펴보세요.'},
-  {id:'research', name:'근거연구', en:'EVIDENCE & RESEARCH', description:'DANAUN REGEN, 치료센터, 정밀 진단의 진료 안내에서 인용한 논문·지침·평가 자료를 찾아보세요.'},
+  {id:'research', name:'근거연구', en:'EVIDENCE & RESEARCH', description:'주사치료, 치료센터, 정밀 진단의 진료 안내에서 인용한 논문·지침·평가 자료를 찾아보세요.'},
 ];
 
 export const categories = insightSections.filter(({id}) => id !== 'media' && id !== 'research');

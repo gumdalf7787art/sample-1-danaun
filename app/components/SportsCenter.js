@@ -219,10 +219,10 @@ export default function SportsCenter() {
             </ol>
             <RecoveryTable caption="상태에 따라 검토하는 치료" heading="치료 방향" rows={treatments}/>
             <div className="rp-summary-answer" data-ro-reveal>
-              <h3>DANAUN REGEN은 필요성을 판단한 뒤 연결합니다.</h3>
-              <p>리젠 주사 등 DANAUN REGEN 치료를 고려할 때에는 진단과 치료 목적을 먼저 확인합니다. 사용 성분과 기대할 수 있는 변화, 한계와 다른 선택지를 설명합니다.</p>
+              <h3>주사치료은 필요성을 판단한 뒤 연결합니다.</h3>
+              <p>주사치료를 고려할 때에는 진단과 치료 목적을 먼저 확인합니다. 사용 성분과 기대할 수 있는 변화, 한계와 다른 선택지를 설명합니다.</p>
               <p>주사치료에는 통증·멍·출혈·감염·알레르기 반응 등이 생길 수 있습니다. 주의사항은 약제와 시술 부위에 따라 다르며 치료 반응에도 개인차가 있습니다.</p>
-              <p><Link href="/regen/injection">리젠 주사 안내</Link>　<Link href="/regen/principles">주사 성분 설명 원칙</Link></p>
+              <p><Link href="/regen/injection">맞춤 주사치료 안내</Link>　<Link href="/regen/principles">주사 성분 설명 원칙</Link></p>
             </div>
           </div>
         </section>
