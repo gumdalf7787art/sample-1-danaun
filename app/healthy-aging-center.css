@@ -1,0 +1,63 @@
+.healthy-aging-center .ro-hero h1 { word-break: keep-all; }
+.healthy-aging-center .ro-hero-image img { object-position: center 44%; }
+.healthy-aging-center .ro-hero::after { background: linear-gradient(180deg, #0b17389e, #0b1738e6); }
+.ha-centered { text-align: center; }
+.ha-card-group { margin-top: clamp(28px, 4vw, 52px); }
+.healthy-aging-center .ha-card-group h3 { margin: 0 0 18px; text-align: center; font-size: clamp(17px, 2vw, 22px); }
+.ha-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(14px, 2vw, 22px); list-style: none; padding: 0; margin: 0; }
+.ha-care-card { min-width: 0; overflow: hidden; border: 1px solid var(--care-line); border-radius: 12px; background: #fff; }
+.ha-care-card img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+.ha-card-copy { padding: clamp(16px, 2vw, 22px); }
+.ha-card-copy h4 { margin: 0 0 7px; color: var(--care-ink); font-size: 19px; font-weight: 600; line-height: 1.5; }
+.ha-card-copy p { margin: 0; color: var(--care-muted); font-size: 15px; line-height: 1.7; }
+.ha-card-copy .ha-card-goal { margin-top: 11px; padding-top: 11px; border-top: 1px solid var(--care-line); color: var(--care-tint); }
+.ha-progress-grid .ha-care-card { border-top: 2px solid #bba081; }
+
+.ha-guide { background: #0b1738; }
+.healthy-aging-center .ha-guide h2 { color: #f6f8fa; }
+.healthy-aging-center .ha-guide h2 em { color: #82dccb; }
+.healthy-aging-center .ha-guide :is(.ro-label, h3) { color: #e8c5a0; }
+.healthy-aging-center .ha-guide :is(.ro-heading > p:last-child, article p) { color: #d1dbe6; }
+.ha-guide .care-citations a { color: #b9e6dc; }
+.ha-guide-grid, .ha-safety-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.ha-guide-grid article { padding: 18px 22px; border: 1px solid #d4b18b44; border-radius: 12px; background: #142343; }
+.healthy-aging-center :is(.ha-guide-grid, .ha-safety-grid) h3 { font-size: 18px; line-height: 1.5; margin: 0 0 7px; }
+.ha-guide-grid p, .ha-safety-grid p, .ha-scalp-note p { margin: 0; font-size: 15px; line-height: 1.75; }
+
+.ha-split, .ha-consent { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(24px, 4vw, 56px); }
+.ha-split .rp-rows { margin: 0; }
+.ha-reverse .ha-photo { grid-column: 2; grid-row: 1; }
+.ha-reverse > :last-child { grid-column: 1; grid-row: 1; }
+.ha-photo { position: relative; margin: 0; min-height: 280px; overflow: hidden; border-radius: 12px; background: #142343; }
+.ha-photo img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+.healthy-aging-center :is(#skin, #scalp) .ha-photo { align-self: center; width: 100%; min-height: 0; aspect-ratio: 3 / 2; }
+.ha-scalp-note { margin: 24px auto 0; color: var(--care-muted); padding-top: 16px; border-top: 1px solid var(--care-line); }
+.ha-scalp-note p + p { margin-top: 8px; }
+.ha-consent { margin-top: 32px; gap: clamp(20px, 4vw, 44px); background: #0b1738; color: #d1dbe6; border-radius: 14px; overflow: hidden; }
+.ha-consent .ha-photo { border-radius: 0; }
+.ha-consent > div { padding: clamp(22px, 4vw, 44px) clamp(22px, 4vw, 44px) clamp(22px, 4vw, 44px) 0; font-size: 15px; line-height: 1.75; }
+.healthy-aging-center .ha-consent h3 { color: #e8c5a0; font-size: 21px; }
+.ha-consent ol { margin: 12px 0; padding-left: 1.3em; }
+.ha-consent li::marker { color: #e8c5a0; }
+.healthy-aging-center .ha-consent .ro-link { color: #82dccb; }
+.ha-safety-grid .care-safety { background: #f6f7f8; }
+.healthy-aging-center .care-location h3 { margin-top: 20px; }
+.healthy-aging-center .care-location .care-prompt-list { margin-top: 0; }
+.healthy-aging-center .care-sources ul { margin-top: 24px; }
+.healthy-aging-center .ro-faq-answer h3 { color: #f6f7fa; font-size: 17px; font-weight: 500; line-height: 1.65; overflow-wrap: anywhere; margin: 0 0 10px; }
+
+@media (max-width: 760px) {
+  .ha-split, .ha-consent { grid-template-columns: minmax(0, 1fr); }
+  .ha-split > *, .ha-consent > * { min-width: 0; }
+  .ha-reverse .ha-photo, .ha-reverse > :last-child { grid-column: auto; grid-row: auto; }
+  .ha-photo { min-height: 0; aspect-ratio: 3 / 2; }
+  .ha-consent { gap: 0; }
+  .ha-consent > div { padding: 22px; }
+}
+@media (max-width: 640px) {
+  .healthy-aging-center .ro-hero-image img { object-position: center; }
+  .ha-guide-grid, .ha-safety-grid { grid-template-columns: minmax(0, 1fr); }
+  .ha-card-grid { grid-template-columns: minmax(0, 1fr); }
+  .ha-guide-grid article { padding: 16px; }
+  .healthy-aging-center .ro-faq-answer h3 { font-size: 16px; }
+}

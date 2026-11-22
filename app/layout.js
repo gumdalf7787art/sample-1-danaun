@@ -1,6 +1,29 @@
+import './research.css';
 import './pretendard-subsets.css';
-import './danaun.css';
-import {Header,Footer} from './Site';
-import {siteName,siteUrl} from './content';
-export const metadata={metadataBase:new URL(siteUrl),title:{default:`${siteName} | 더 나은 움직임, 더 나은 일상`,template:`%s | ${siteName}`},description:'몸의 불편을 듣고, 움직임을 살피고, 일상을 함께 생각합니다. 다나은재활의학과의원 가상 홈페이지 시안.',robots:{index:false,follow:false},openGraph:{title:siteName,description:'편안하게 움직이는 일상, 다나은과 함께.',images:['/images/danaun-walking.png']},icons:{icon:'/danaun-symbol.svg'}};
-export default function RootLayout({children}){return <html lang="ko"><body><Header/><main id="main">{children}</main><Footer/></body></html>}
+import './globals.css';
+import './details.css';
+import './regen.css';
+import './diagnosis.css';
+import './insights.css';
+import './visit.css';
+import './policies.css';
+import './members.css';
+import './hero-upgrade.css';
+import './home-premium.css';
+import './youtube.css';
+import './typography.css';
+import './regen-editorial.css';
+import './consultation-story.css';
+import './home-consultation.css';
+import './home-visit.css';
+import './home-footer.css';
+import './reset-principles.css';
+import './home-review.css';
+import './quick-menu.css';
+import './site-header.css';
+import './home-rendering.css';
+import QuickMenu from './components/QuickMenu';
+import {siteUrl,isPublic,siteName} from './data/seo';
+import {ClinicData} from './components/StructuredData';
+export const metadata={metadataBase:new URL(siteUrl),title:siteName,description:'다나은재활의학과의원 샘플 사이트. 정밀한 평가부터 치료와 재활까지 안내합니다.',robots:{index:isPublic,follow:true}};
+export default function RootLayout({children}) {return <html lang="ko"><head><link rel="icon" href="/images/danaun-symbol.svg" type="image/svg+xml" sizes="any"/></head><body><ClinicData/>{children}<QuickMenu/></body></html>}

@@ -1,0 +1,37 @@
+.reset-quick{position:fixed;right:16px;top:50%;transform:translateY(-50%);z-index:50;width:85px;font-family:Pretendard,sans-serif}
+.reset-quick .reset-quick-panel{display:flex;flex-direction:column;gap:0;width:100%;padding:0;background:#fffffff5;border:1px solid #d4b18b45;border-radius:19.5px;box-shadow:0 10px 36px #0b17381a;overflow:hidden;backdrop-filter:blur(14px)}
+.reset-quick-panel>a,.reset-quick-panel>button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:83px;width:100%;padding:15px 5px;color:#0b1738;background:transparent;font-size:11px;font-weight:500;letter-spacing:-.2px;line-height:1.4;border:0;border-bottom:1px solid #0b17380d;transition:background .25s,color .25s}
+.reset-quick svg{width:22px;height:22px;flex-shrink:0;color:#89633f}
+.reset-quick-panel>a:hover,.reset-quick-panel>button:hover{background:#edf7f5;color:#087c70}
+.reset-quick-panel>a:focus-visible,.reset-quick-panel>button:focus-visible{outline:2px solid #15b4a2;outline-offset:-4px}
+.reset-quick-panel>a.reset-quick-phone{background:#0b1738;color:#fff;padding-top:21px;padding-bottom:19px;gap:7px}
+.reset-quick-phone svg{color:#82dccb}.reset-quick-phone small{font-size:10px;letter-spacing:0;color:#d4b18b;white-space:nowrap}
+.reset-quick-panel>button.reset-quick-top{min-height:51px;flex-direction:row;gap:6px;font-size:9px;letter-spacing:1px;border-bottom:0}
+.reset-quick-top svg{width:15px;height:15px}.reset-quick .reset-quick-toggle{display:none}
+@media(max-width:1400px),(max-height:650px){
+  .reset-quick{top:auto;bottom:28px;right:16px;transform:none;width:85px;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+  .reset-quick .reset-quick-panel{display:none}
+  .reset-quick.is-open .reset-quick-panel{display:flex;animation:quickReveal .25s ease-out}
+  .reset-quick .reset-quick-toggle{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:5px;width:58px;height:58px;background:#0b1738;color:white;border:1px solid #82dccb55;border-radius:50%;box-shadow:0 5px 24px #0b173825;font-size:9px;line-height:1}
+  .reset-quick-toggle svg{width:19px;height:19px;color:#82dccb}
+}
+@media(max-width:760px){.reset-quick{bottom:calc(78px + env(safe-area-inset-bottom));right:12px}.reset-quick-panel>a{min-height:66px;padding:10px 5px}.reset-quick-panel>a.reset-quick-phone{padding:12px 5px}.reset-quick-panel>button.reset-quick-top{min-height:40px}.reset-quick .reset-quick-panel{max-height:calc(100dvh - 180px);overflow-y:auto;overscroll-behavior:contain;backdrop-filter:none}}
+@keyframes quickReveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.reset-quick.is-open .reset-quick-panel{animation:none}.reset-quick-panel>a,.reset-quick-panel>button{transition:none}}
+
+.reset-quick-panel>a.reset-quick-kakao{background:#FEE500;color:#191919}.reset-quick-kakao svg{color:#191919}.reset-quick-panel>a.reset-quick-kakao:hover{background:#f5dc00;color:#191919}
+
+/* Subtle feedback without shifting the rail or its click targets. */
+.reset-quick-panel>a,.reset-quick-panel>button{transition:background .35s ease,color .35s ease,box-shadow .35s ease}
+.reset-quick-panel svg{transition:transform .4s cubic-bezier(.22,1,.36,1),color .35s ease}
+@media(hover:hover) and (pointer:fine){
+  .reset-quick-panel>a:hover,.reset-quick-panel>button:hover{background:#eaf5f2;box-shadow:inset 2px 0 0 #15b4a280}
+  .reset-quick-panel>a:hover svg,.reset-quick-panel>button:hover svg{transform:translateY(-3px)}
+  .reset-quick-panel>a.reset-quick-phone:hover{background:#172a4b;color:#fff;box-shadow:inset 2px 0 0 #82dccb}
+  .reset-quick-panel>a.reset-quick-kakao:hover{background:#ffed52;color:#191919;box-shadow:inset 2px 0 0 #bca60066}
+}
+.reset-quick-panel>a:focus-visible svg,.reset-quick-panel>button:focus-visible svg{transform:translateY(-3px)}
+@media(prefers-reduced-motion:reduce){
+  .reset-quick-panel>a,.reset-quick-panel>button,.reset-quick-panel svg{transition:none}
+  .reset-quick-panel>a:hover svg,.reset-quick-panel>button:hover svg,.reset-quick-panel>a:focus-visible svg,.reset-quick-panel>button:focus-visible svg{transform:none}
+}

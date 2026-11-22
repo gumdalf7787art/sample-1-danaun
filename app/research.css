@@ -1,0 +1,121 @@
+.home-science{background:#f3f6fb}.science-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.science-grid>article{background:white;border:1px solid #dbe3ee}.science-card-heading{padding:30px 32px 22px}.science-card-heading>span{font-size:10px;letter-spacing:1.5px;color:#65788e}.science-card-heading h3{font-size:31px;margin-top:16px;font-weight:500}.science-card-heading h3 small{display:block;font-size:15px;margin-top:9px;color:#63728b}.science-diagram{background:#0b1738;margin:0;padding:22px 26px;color:#82DCCB}.science-diagram svg{display:block;width:100%;height:180px}.science-diagram figcaption{font-size:11px;line-height:1.8}.science-diagram figcaption>span{display:inline-block;margin-right:20px}.science-diagram figcaption small{display:block;color:#b8c7de;font-size:10px;margin-top:10px}.svf-flow{height:200px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;gap:20px}.svf-flow>div{position:relative;text-align:center;border:1px solid #82DCCB50;padding:18px 5px}.svf-flow>div:not(:last-child):after{content:'→';position:absolute;right:-17px;top:45%}.svf-flow span,.svf-flow strong,.svf-flow small{display:block}.svf-flow span{font-size:10px;margin-bottom:12px;color:#aebdd7}.svf-flow strong{font-size:18px;font-weight:500}.svf-flow small{font-size:9px;margin-top:10px;color:#c3d2e6}.science-card-copy{padding:28px 32px 32px}.science-label{display:inline-block;font-size:10px;background:#e8f5ef;color:#285f56;padding:7px 10px;line-height:1.7}.science-card-copy>p{font-size:14px;line-height:1.9;margin-top:19px;color:#324766}.science-card-copy>.science-limit{font-size:12px;color:#6b7b91}.science-card-copy .underline-link{margin-top:22px;font-size:12px}.science-research-link{display:flex;justify-content:space-between;align-items:center;gap:24px;padding-top:32px}.science-research-link span{font-size:9px;letter-spacing:1.8px;color:#697b94}.science-research-link p{font-size:20px;margin-top:10px}.home-regen-nav{position:relative}.home-regen-nav summary{cursor:pointer;list-style:none;white-space:nowrap}.home-regen-nav summary::-webkit-details-marker{display:none}.home-regen-nav>div{position:absolute;top:32px;left:-18px;width:230px;padding:14px 20px;background:#0b1738;border:1px solid #ffffff30;z-index:25;box-shadow:0 14px 28px #0002}.hero .home-regen-nav>div>a{display:block;padding:12px 0;border-bottom:1px solid #ffffff15;font-size:12px}.research-more{margin-top:25px}.research-mechanisms{display:grid;grid-template-columns:minmax(0,1fr);gap:30px;margin-top:30px}.research-mechanisms article{border:1px solid #dbe3ee;padding:28px}.research-mechanisms h3{font-size:22px;margin:0 0 22px}.research-mechanisms article>p{font-size:14px;line-height:1.95;color:#667890;margin-top:20px}.research-mechanisms article>a{display:inline-block;margin-top:20px;font-size:13px;text-decoration:underline;text-underline-offset:5px}.research-cards{display:grid;gap:30px;margin-top:30px}.research-card{padding:30px;background:#f3f6fb;border-top:2px solid #15B4A2;scroll-margin-top:110px}.research-card-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px}.research-card-top>span:first-child{font-size:10px;letter-spacing:1px;color:#65788e}.research-card h3{font-size:30px;margin:25px 0;font-weight:500}.research-card h3 small{display:block;font-size:15px;margin-top:10px;color:#667890}.research-card dl{margin:0}.research-card dl>div{padding:18px 0;border-top:1px solid #dce3ed}.research-card dt{font-size:13px;font-weight:600;margin-bottom:10px}.research-card dd{font-size:14px;line-height:1.95;color:#667890;margin:0}.research-card-links{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px;margin-top:18px;font-size:12px;text-decoration:underline;text-underline-offset:5px}.research-sources{list-style:none;padding:0;margin-top:30px}.research-sources li{padding:25px 0;border-top:1px solid #dce3ed;scroll-margin-top:110px}.research-sources li>span{font-size:10px;color:#587d74}.research-sources h3{font-size:17px;line-height:1.7;margin:12px 0;overflow-wrap:anywhere}.research-sources h3 a{text-decoration:underline;text-underline-offset:4px}.research-sources p,.research-review p{font-size:12px;line-height:1.9;color:#667890}.research-review{padding:25px;background:#f3f6fb;margin-top:20px}.research-review strong{font-size:14px}.research-review p{margin-top:12px}.research-site .small-note{margin-top:20px}.science-grid>article,.research-card{min-width:0}
+@media(max-width:640px){.science-grid{grid-template-columns:minmax(0,1fr);gap:22px}.science-card-heading,.science-card-copy{padding:24px}.science-diagram{padding:20px}.science-diagram svg{height:150px}.svf-flow{height:170px;gap:17px}.svf-flow strong{font-size:16px}.svf-flow small{font-size:8px}.science-research-link{align-items:flex-start;flex-direction:column}.science-research-link p{font-size:18px}.science-card-copy>p{font-size:13px}.research-card,.research-mechanisms article{padding:22px}.research-card h3{font-size:26px}.research-card dd,.research-mechanisms article>p{font-size:13px}.research-mechanisms .science-diagram{margin-left:-8px;margin-right:-8px;padding:16px}.research-sources h3{font-size:15px}}
+
+
+/* Compact comparison on the homepage. */
+.regen-principles {
+  background: linear-gradient(180deg, #f0f3f7 0, #fbfaf7 180px);
+  color: #0b1738;
+}
+.home-premium .regen-principles > .section.regen-comparison {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 30%;
+  gap: clamp(28px, 4.5vw, 64px);
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 48px clamp(24px, 4vw, 56px);
+}
+.regen-principles-intro { margin-bottom: 20px; }
+.regen-principles-intro h2 em { color: #087c70; }
+.regen-principle-row {
+  display: grid;
+  grid-template-columns: clamp(64px, 7.5vw, 100px) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(14px, 2vw, 26px);
+  padding-block: 16px;
+  border-top: 1px solid #89633f33;
+}
+.regen-principle-visual { min-width: 0; margin: 0; }
+.regen-principle-image {
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 1px solid #89633f55;
+  border-radius: 50%;
+}
+.regen-principle-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.regen-principle-image img[src*="knee-svf"] { object-fit: cover; width: 170%; max-width: none; margin-left: -35%; }
+.regen-principle-heading { margin-bottom: 5px; }
+.regen-principle-heading p { margin: 0 0 3px; color: #89633f; font-size: 11px; font-weight: 600; }
+.home-premium .regen-principle-heading h3 { color: #0b1738; font-size: 22px; line-height: 1.35; margin: 0; }
+.regen-principle-copy > p {
+  margin: 0 0 7px;
+  color: #46566c;
+  font-size: 14px;
+  line-height: 1.65;
+  word-break: keep-all;
+}
+.regen-principles .underline-link {
+  color: #087c70;
+  border-color: #087c7060;
+  font-size: 12px;
+  padding-block: 8px;
+}
+.regen-principles a:focus-visible { outline: 2px solid #087c70; outline-offset: 4px; }
+.regen-principles-research {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px 16px;
+  border-top: 1px solid #89633f33;
+  padding-top: 12px;
+}
+.regen-principles-research p { margin: 0; font-size: 13px; font-weight: 600; }
+.regen-comparison-photo {
+  position: relative;
+  min-height: 290px;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #0b1738;
+}
+.regen-comparison-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 45%;
+}
+@media (max-width: 760px) {
+  .home-premium .regen-principles > .section.regen-comparison {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    padding: 36px 24px;
+  }
+  .regen-principle-row { grid-template-columns: 58px minmax(0, 1fr); align-items: start; }
+  .regen-principle-copy > p { font-size: 13px; }
+  .regen-comparison-photo { min-height: 0; aspect-ratio: 16 / 9; }
+}
+
+a.research-reference-link,
+:is(.ro-review, .reference-block) a.research-reference-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  min-height: 44px;
+  margin-top: .5rem;
+  color: #087066;
+  font-size: .875rem;
+  font-weight: 650;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-underline-offset: .25em;
+}
+
+.research-reference-link:focus-visible {
+  outline: 2px solid #087066;
+  outline-offset: 3px;
+}
+
+.regen-overview-references {
+  padding-left: 1rem;
+  margin-block: .6rem .25rem;
+  font-size: .875rem;
+}
+
+.ro-review .regen-overview-references a {
+  color: #45546a;
+  font-size: inherit;
+  overflow-wrap: anywhere;
+}
