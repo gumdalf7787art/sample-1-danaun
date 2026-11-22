@@ -83,7 +83,7 @@ export default function DiagnosisOverview() {
               <p>{definition[0]}</p><p>{definition[1]}</p>
             </div>
             <div className="ro-concept-approach" data-ro-reveal>
-              <p className="ro-label" lang="en">THE RESET APPROACH</p>
+              <p className="ro-label" lang="en">THE DANAUN APPROACH</p>
               <h3>내게 필요한 평가를 선택하고,<br/><em className="ro-concept-highlight" data-ro-highlight>그 결과가 무엇을 의미하는지 설명합니다.</em></h3>
               <p className="rp-note">{definition[3]}</p>
             </div>
@@ -92,7 +92,7 @@ export default function DiagnosisOverview() {
 
         <section className="ro-band" id="questions" aria-labelledby="questions-title">
           <div className="ro-wrap">
-            <Heading id="questions-title" label="EVERYDAY MOVEMENT" description="같은 부위의 통증이라도 시작된 상황과 불편한 동작은 다를 수 있습니다. 리셋은 환자가 느끼는 변화에서 평가를 시작합니다.">
+            <Heading id="questions-title" label="EVERYDAY MOVEMENT" description="같은 부위의 통증이라도 시작된 상황과 불편한 동작은 다를 수 있습니다. 다나은은 환자가 느끼는 변화에서 평가를 시작합니다.">
               통증이 생긴 부위와,<br/><em>어려워진 일상을 함께 알려주세요.</em>
             </Heading>
             <div className="ro-split rp-split rp-aligned-split">

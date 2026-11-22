@@ -20,7 +20,7 @@ function getStudy(slug) {
 
 export async function generateMetadata({params}) {
   const study = getStudy((await params).study);
-  return pageMeta(researchStudyPath(study.slug), study.title + ' | 리셋 근거연구', study.summary);
+  return pageMeta(researchStudyPath(study.slug), study.title + ' | 다나은 근거연구', study.summary);
 }
 
 export default async function Page({params}) {

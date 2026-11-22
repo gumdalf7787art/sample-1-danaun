@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import {CHANNEL_ID, DOCTOR_TV_ARCHIVE_SIZE} from '../lib/youtube-feed.mjs';
+import {CHANNEL_ID, CHANNEL_URL, CHANNEL_VIDEO_LIMIT} from '../lib/youtube-feed.mjs';
 import {getLiveVideos} from '../lib/youtube.mjs';
 
-function channelPage(firstId, count = DOCTOR_TV_ARCHIVE_SIZE) {
+function channelPage(firstId, count = CHANNEL_VIDEO_LIMIT) {
   const contents = Array.from({length: count}, (_, index) => ({
     richItemRenderer: {content: {videoRenderer: {
       videoId: index === 0 ? firstId : 'VIDEO' + String(index).padStart(6, '0'),
@@ -14,7 +14,7 @@ function channelPage(firstId, count = DOCTOR_TV_ARCHIVE_SIZE) {
   const tabRenderer = {
     selected: true,
     endpoint: {
-      commandMetadata: {webCommandMetadata: {url: '/@Drkoeun/videos'}},
+      commandMetadata: {webCommandMetadata: {url: '/@대재의사회TV/videos'}},
       browseEndpoint: {browseId: CHANNEL_ID},
     },
     content: {richGridRenderer: {
@@ -32,7 +32,8 @@ test('automatically replaces the featured upload and keeps the last complete lis
   let calls = 0;
   let next = () => new Response(channelPage('FEATURE0001'));
   t.mock.method(Date, 'now', () => now);
-  t.mock.method(globalThis, 'fetch', async () => {
+  t.mock.method(globalThis, 'fetch', async url => {
+    assert.equal(url, CHANNEL_URL + '/videos?hl=ko');
     calls++;
     return next();
   });
@@ -47,7 +48,7 @@ test('automatically replaces the featured upload and keeps the last complete lis
   });
 
   const initial = await getLiveVideos();
-  assert.equal(initial.videos.length, 13);
+  assert.equal(initial.videos.length, CHANNEL_VIDEO_LIMIT);
   assert.equal(initial.videos[0].id, 'FEATURE0001');
   assert.equal((await getLiveVideos()).checkedAt, initial.checkedAt);
   assert.equal(calls, 1);

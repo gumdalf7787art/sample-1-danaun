@@ -1,5 +1,5 @@
 export const insightSections = [
-  {id:'tv', name:'외부 건강 영상', en:'DOCTOR GOEUN TV', description:'샘플 의료진이 영상으로 전하는 몸과 움직임 이야기.'},
+  {id:'tv', name:'외부 건강 영상', en:'HEALTH VIDEOS', description:'대한재활의학과의사회TV에서 공개한 재활·건강 영상을 모았습니다.'},
   {id:'column', name:'건강칼럼', en:'HEALTH JOURNAL', description:'증상과 검사, 치료를 이해하는 데 도움이 되는 글.'},
   {id:'questions', name:'묻고 답하기', en:'QUESTIONS & ANSWERS', description:'진료 전후 자주 궁금해하는 내용을 질문별로 찾아보세요.'},
   {id:'exercise', name:'홈운동 라이브러리', en:'HOME EXERCISE', description:'관심 있는 부위의 운동 영상과 운동 전후에 확인할 내용을 모았습니다.'},

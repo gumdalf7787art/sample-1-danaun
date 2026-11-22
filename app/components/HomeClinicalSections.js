@@ -18,7 +18,7 @@ export function HomeAssessment() {
   return (
     <section id="home-assessment" className="section home-assessment" aria-labelledby="home-assessment-title">
       <div className="section-top">
-        <h2 id="home-assessment-title">리셋은 <em>무엇을 살피나요?</em></h2>
+        <h2 id="home-assessment-title">다나은은 <em>무엇을 살피나요?</em></h2>
       </div>
       <div className="home-assessment-grid">
         <img

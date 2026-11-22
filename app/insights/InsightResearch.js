@@ -65,7 +65,7 @@ export default function InsightResearch({records, initialPage = ''}) {
   return <section className="ro-band ins-research research-library" id="research-summary" aria-labelledby="research-title">
     <div className="ro-wrap">
       <div className="ro-heading">
-        <h2 id="research-title">리셋이 참고하는 <em>연구와 원문 자료</em></h2>
+        <h2 id="research-title">다나은이 참고하는 <em>연구와 원문 자료</em></h2>
         <p>재생치료, 치료센터, 정밀 진단에서 인용한 논문과 지침을 찾아보세요. 각 자료에서 인용한 페이지로 바로 이동할 수 있습니다.</p>
       </div>
       <form className="research-controls" id="reading-guide" role="search" onSubmit={event => event.preventDefault()}>

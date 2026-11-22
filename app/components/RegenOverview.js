@@ -78,8 +78,8 @@ const faqGroups = [
  ]},
  {title:'리젠 주사', items:[
   ['리젠 주사에는 어떤 성분이 들어가나요?', '리젠 주사는 하나의 고정된 약제명이 아닙니다. 진단과 조직 상태에 따라 검토하는 성분이 달라지므로, 시술 전에 실제 제품과 성분, 적용 부위와 목적을 설명합니다. 여러 성분을 일괄 혼합한다는 뜻도 아닙니다.'],
-  ['리젠 주사에는 스테로이드가 들어가나요?', '리셋은 환자에게 설명되지 않은 스테로이드 사용 여부를 사전에 설명합니다. 스테로이드가 무조건 제외된다는 뜻은 아니며, 필요한 경우 사용 목적과 이득·위험, 다른 선택지를 설명한 뒤 함께 결정합니다.'],
-  ['일반적인 통증 주사와 리젠 주사는 무엇이 다른가요?', '주사의 이름만으로 성분이나 효과를 구분할 수는 없습니다. 실제 성분과 시술 방법, 통증·염증 조절 등 치료 목적을 확인해야 합니다. 리셋은 주사 선택뿐 아니라 치료 후 기능 평가와 재활 계획도 함께 살핍니다.']
+  ['리젠 주사에는 스테로이드가 들어가나요?', '다나은은 환자에게 설명되지 않은 스테로이드 사용 여부를 사전에 설명합니다. 스테로이드가 무조건 제외된다는 뜻은 아니며, 필요한 경우 사용 목적과 이득·위험, 다른 선택지를 설명한 뒤 함께 결정합니다.'],
+  ['일반적인 통증 주사와 리젠 주사는 무엇이 다른가요?', '주사의 이름만으로 성분이나 효과를 구분할 수는 없습니다. 실제 성분과 시술 방법, 통증·염증 조절 등 치료 목적을 확인해야 합니다. 다나은은 주사 선택뿐 아니라 치료 후 기능 평가와 재활 계획도 함께 살핍니다.']
  ]},
  {title:'PRP · PRF', items:[
   ['PRP는 내 혈액을 이용하는 치료인가요?', '네. 자신의 혈액을 채취한 뒤 혈소판이 풍부한 혈장을 분리해 활용합니다. 준비 방법에 따라 성분 구성이 달라질 수 있으며, 자가혈을 사용한다고 모든 질환에 적합하거나 효과가 보장되는 것은 아닙니다.'],
@@ -122,7 +122,7 @@ export default function RegenOverview(){
         <p>DANAUN REGEN은 다나은재활의학과의원의 맞춤형 조직 회복 프로그램입니다.</p><p>정밀한 진찰과 초음파 평가를 바탕으로 통증에 관여하는 조직의 상태를 살피고, 환자에게 적합한 치료와 재활을 함께 설계합니다.</p>
       </div>
       <div className="ro-concept-approach" data-ro-reveal>
-        <p className="ro-label" lang="en">THE RESET APPROACH</p>
+        <p className="ro-label" lang="en">THE DANAUN APPROACH</p>
         <h3>하나의 주사보다,<br/><em className="ro-concept-highlight" data-ro-highlight>나에게 맞는 치료의 과정.</em></h3>
         <ul className="ro-concept-steps" data-ro-standards aria-label="진료의 네 가지 기준">
           {careStandards.map(({title, description, icon}, index) => (
@@ -141,7 +141,7 @@ export default function RegenOverview(){
   <ResetBrandMeaning/>
   <section className="ro-why ro-band" id="why-regen" aria-labelledby="ro-why-title">
     <div className="ro-wrap">
-      <div className="ro-heading ro-why-heading"><p className="ro-label">WHY REGEN</p><h2 id="ro-why-title" data-ro-title>왜 조직의 회복까지 생각할까요?</h2><div data-ro-reveal><h3 className="ro-why-statement">통증이 줄었다고,<br/><em>다 나은 것은 아닙니다.</em></h3><p>통증이 사라지는 것과 손상된 조직이 회복되는 것은 다를 수 있습니다.</p><p>리셋은 통증의 변화뿐 아니라 인대·힘줄 등 관련 조직의 상태와 움직임을 함께 살피고,<br className="ro-desktop-break"/> 치료 이후에도 경과를 확인합니다.</p></div></div>
+      <div className="ro-heading ro-why-heading"><p className="ro-label">WHY REGEN</p><h2 id="ro-why-title" data-ro-title>왜 조직의 회복까지 생각할까요?</h2><div data-ro-reveal><h3 className="ro-why-statement">통증이 줄었다고,<br/><em>다 나은 것은 아닙니다.</em></h3><p>통증이 사라지는 것과 손상된 조직이 회복되는 것은 다를 수 있습니다.</p><p>다나은은 통증의 변화뿐 아니라 인대·힘줄 등 관련 조직의 상태와 움직임을 함께 살피고,<br className="ro-desktop-break"/> 치료 이후에도 경과를 확인합니다.</p></div></div>
       <div className="ro-comparison ro-comparison-photos">
         {[
           ['pain','01 · PAIN','통증의 변화','현재 느끼는 불편감과 일상생활에서의 통증 변화를 확인합니다.','무릎의 불편감을 살피는 모습을 표현한 예시'],
@@ -193,14 +193,14 @@ export default function RegenOverview(){
   </section>
   <section className="ro-precision ro-band" id="precision" aria-labelledby="ro-precision-title">
     <div className="ro-wrap">
-      <div className="ro-heading" data-ro-reveal><p className="ro-label">PRECISION FIRST · 치료보다 먼저, 정확한 평가</p><h2 id="ro-precision-title">치료보다 먼저,<br/><em>통증이 시작되는 곳을 찾습니다.</em></h2><p>리셋은 통증이 나타나는 부위뿐 아니라 인대·힘줄·근육·근막·신경 주변 조직과 움직임을 함께 살핍니다.<br/>진찰과 초음파, 움직임 평가 결과를 종합하여 치료 방향을 정합니다.</p></div>
+      <div className="ro-heading" data-ro-reveal><p className="ro-label">PRECISION FIRST · 치료보다 먼저, 정확한 평가</p><h2 id="ro-precision-title">치료보다 먼저,<br/><em>통증이 시작되는 곳을 찾습니다.</em></h2><p>다나은은 통증이 나타나는 부위뿐 아니라 인대·힘줄·근육·근막·신경 주변 조직과 움직임을 함께 살핍니다.<br/>진찰과 초음파, 움직임 평가 결과를 종합하여 치료 방향을 정합니다.</p></div>
       <div className="ro-precision-layout"><figure data-ro-reveal="left" data-ro-reveal-delay="0"><img src="/images/regen-ultrasound-focus-1120.webp" srcSet="/images/regen-ultrasound-focus-640.webp 640w, /images/regen-ultrasound-focus-1120.webp 1120w" sizes="(max-width:640px) calc(100vw - 44px), (max-width:1272px) 47vw, 565px" width="1120" height="747" loading="lazy" decoding="async" alt="무릎에 탐촉자를 대고 초음파로 평가하는 모습과 뒤쪽의 초음파 모니터"/></figure>
         <ol className="ro-evaluation-list">{[['인대·힘줄','손상 부위와 조직 상태'],['근육 기능','근력과 근육의 사용 양상'],['근막·신경 주변','통증에 관여할 수 있는 주변 조직'],['움직임','일상 동작에서 부담이 실리는 부위'],['치료 설계','주사·운동·생활 관리의 조합']].map(([title,body],i)=><li key={title} data-ro-reveal data-ro-reveal-delay={i * 100}><span>0{i+1}</span><div><h3>{title}</h3><p>{body}</p></div></li>)}</ol>
       </div><div className="ro-center"><Link href="/diagnosis">정밀 진단 알아보기</Link></div>
     </div>
   </section>
   <section className="ro-process ro-band" id="aftercare" aria-labelledby="ro-aftercare-title"><div className="ro-wrap">
-    <div className="ro-heading" data-ro-reveal><p className="ro-label">BEYOND INJECTION · 주사로 끝나지 않는 치료</p><span className="ro-message">RESET MESSAGE 007</span><h2 id="ro-aftercare-title">회복에는 <em>시간이 걸립니다.</em></h2><p>재생 치료는 첫 시술 직후부터 변화를 보장하는 치료가 아닙니다.<br/>치료 간격과 횟수는 환자의 상태에 따라 달라질 수 있으며,<br/>치료 후 경과를 다시 확인하는 과정이 중요합니다.</p></div>
+    <div className="ro-heading" data-ro-reveal><p className="ro-label">BEYOND INJECTION · 주사로 끝나지 않는 치료</p><span className="ro-message">DANAUN MESSAGE 007</span><h2 id="ro-aftercare-title">회복에는 <em>시간이 걸립니다.</em></h2><p>재생 치료는 첫 시술 직후부터 변화를 보장하는 치료가 아닙니다.<br/>치료 간격과 횟수는 환자의 상태에 따라 달라질 수 있으며,<br/>치료 후 경과를 다시 확인하는 과정이 중요합니다.</p></div>
     <ol className="ro-process-steps ro-process-sequence" data-ro-reveal>{steps.map(([title,body],i)=><li key={title}><span className="ro-point" aria-hidden="true"/><small>0{i+1}</small><h3>{title}</h3><p>{body}</p></li>)}</ol>
     <RecoveryBeam/>
   </div></section>

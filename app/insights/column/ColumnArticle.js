@@ -92,7 +92,7 @@ export default function ColumnArticle({post, related, other, listQuery}) {
         <nav className="column-breadcrumb" aria-label="현재 위치">
           <a href="/insights">다나은 인사이트</a><span aria-hidden="true">／</span><a href={columnPath + listQuery}>건강칼럼</a>
         </nav>
-        <p className="column-eyebrow">RESET JOURNAL{editorial.topic && ' · ' + editorial.topic}</p>
+        <p className="column-eyebrow">DANAUN JOURNAL{editorial.topic && ' · ' + editorial.topic}</p>
         <h1 id="column-title"><Lines lines={editorial.titleLines} fallback={post.title} /></h1>
         <p className="column-summary"><Lines lines={editorial.summaryLines} fallback={post.summary} /></p>
         <div className="column-meta">

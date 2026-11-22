@@ -10,4 +10,4 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Website image assets
 
-Serve images from project files under `public/images` or the site's uploaded media storage, including broadcast stills and book covers. Use YouTube's original thumbnail URLs for YouTube video cards. Refresh the Doctor Goeun TV list with `node scripts/refresh-youtube-videos.mjs` before committing. This refresh saves video metadata only.
+Serve images from project files under `public/images` or the site's uploaded media storage, including broadcast stills and book covers. Use YouTube's original thumbnail URLs for YouTube video cards. Refresh the 대한재활의학과의사회TV list with `node scripts/refresh-youtube-videos.mjs` before committing. This refresh saves video metadata only.

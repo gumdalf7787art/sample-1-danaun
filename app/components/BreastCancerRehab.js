@@ -96,7 +96,7 @@ export default function BreastCancerRehab() {
               {copy.rehabTargets.map(target => <li key={target}>{target}</li>)}
             </ul>
           </div>
-          <CenterCareProgram id="br-reset-care" title="리셋 케어"
+          <CenterCareProgram id="br-reset-care" title="다나은 케어"
             intro="부종 관리부터 어깨 움직임, 근력과 체력 회복까지 현재 상태에 맞춰 재활을 계획합니다."
             items={copy.resetCare}
             note="급여·산정특례 적용 범위를 확인한 뒤 치료 항목과 일정을 개별적으로 구성합니다."/>
@@ -198,7 +198,7 @@ export default function BreastCancerRehab() {
 
       <section id="follow-up" className="ro-process ro-band" aria-labelledby="br-follow-up">
         <div className="ro-wrap">
-          <Heading id="br-follow-up" label="RESET CARE" intro={copy.followUpLead}>리셋 케어,<br/><em>일상에서 달라진 점까지 확인합니다.</em></Heading>
+          <Heading id="br-follow-up" label="DANAUN CARE" intro={copy.followUpLead}>다나은 케어,<br/><em>일상에서 달라진 점까지 확인합니다.</em></Heading>
           <ol className="ro-process-steps ro-process-sequence" data-ro-reveal>{copy.process.map(([title, body], i) => (
             <li key={title}><span className="ro-point" aria-hidden="true"/><small>{String(i + 1).padStart(2, '0')}</small><h3>{title}</h3><p>{body}</p></li>
           ))}</ol>

@@ -33,11 +33,11 @@ export default function ResetPrinciples({pointsOnly = false}) {
         ) : (
           <div className="principles-heading">
             <div>
-              <p className="eyebrow">OUR DIRECTION · RESET 4원칙</p>
+              <p className="eyebrow">OUR DIRECTION · DANAUN 4원칙</p>
               <h2 id={titleId}>통증은 참는 것이 아니라<br/><em>읽는 것입니다.</em></h2>
             </div>
             <div>
-              <p className="principles-intro">같은 무릎 통증도 시작된 곳은 사람마다 다릅니다.<br/>리셋은 통증의 원인을 보고, 치료하고, 다시 봅니다.</p>
+              <p className="principles-intro">같은 무릎 통증도 시작된 곳은 사람마다 다릅니다.<br/>다나은은 통증의 원인을 보고, 치료하고, 다시 봅니다.</p>
               <ol className="direction-steps"><li>원인을 봅니다</li><li>치료하고, 움직임을 바꿉니다</li><li>시간이 지난 뒤 다시 봅니다</li></ol>
             </div>
           </div>

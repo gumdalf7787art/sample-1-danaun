@@ -61,7 +61,7 @@ export async function generateMetadata({params}){const {slug}=await params;
  };
  if (slug === 'sports') {
   const meta = pageMeta(sportsPath, '스포츠손상 센터 | 수지 스포츠 재활 | 다나은재활의학과의원', sportsDescription);
-  return {...meta, openGraph: {...meta.openGraph, title:'다시 뛰기 위해, 손상과 움직임을 함께 봅니다.', description:'리셋 스포츠손상 센터의 평가·치료·재활·활동 복귀 안내'}};
+  return {...meta, openGraph: {...meta.openGraph, title:'다시 뛰기 위해, 손상과 움직임을 함께 봅니다.', description:'다나은 스포츠손상 센터의 평가·치료·재활·활동 복귀 안내'}};
  }
  notFound();
 }

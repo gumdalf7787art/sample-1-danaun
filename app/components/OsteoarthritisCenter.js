@@ -121,7 +121,7 @@ export default function OsteoarthritisCenter() {
               {copy.jointTargets.map(target => <li key={target}>{target}</li>)}
             </ul>
           </div>
-          <CenterCareProgram id="oa-joint-program" title="리셋 조인트" duration="12주"
+          <CenterCareProgram id="oa-joint-program" title="다나은 조인트" duration="12주"
             intro="초음파 평가부터 근력 운동치료와 경과 확인까지 이어가는 무릎 관절염 관리 프로그램입니다."
             items={copy.jointProgram}
             note="위 항목은 대표 구성입니다. 검사와 운동치료 일정은 진찰과 회복 경과에 따라 조정합니다."/>

@@ -135,7 +135,7 @@ export default function RegenInjection() {
         <section className="ro-band regen-editorial ri-injection-types" id="evidence">
           <div className="ro-wrap">
             <Heading label="INJECTION TYPES" description="진료에서 치료를 선택하는 기준을 이해할 수 있도록, 주사치료의 이름과 성분을 소개합니다.">
-              리셋 리젠의 <em>주사치료</em>
+              다나은 리젠의 <em>주사치료</em>
             </Heading>
             <ul className="ri-type-grid">
               {injectionTypes.map(([title, description, image], index) => (
@@ -212,7 +212,7 @@ export default function RegenInjection() {
               <p className="ro-label">BEFORE YOUR TREATMENT</p>
               <h2>무엇을 맞는지,<br/><em>알고 맞으셔야 합니다.</em></h2>
               <p>제품과 성분, 주사 부위와 목적, 기대할 수 있는 변화와 한계, 대안과 주의사항을 설명합니다. 궁금한 점을 확인한 뒤 치료 여부를 함께 결정합니다.</p>
-              <p className="ro-statement">리셋은 환자에게 설명되지 않은 스테로이드 사용 여부를 사전에 설명합니다.</p>
+              <p className="ro-statement">다나은은 환자에게 설명되지 않은 스테로이드 사용 여부를 사전에 설명합니다.</p>
               <p>스테로이드가 필요한 경우에도 사용 목적과 이득·위험, 다른 선택지를 설명합니다.</p>
               <RegenConsentMarquee/>
               <a className="ro-link" href="/regen/principles">주사 성분 설명 원칙 자세히 보기 <span aria-hidden="true">↗</span></a>

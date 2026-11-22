@@ -95,7 +95,7 @@ export default function HealthyAgingCenter() {
               {copy.agingTargets.map(target => <li key={target}>{target}</li>)}
             </ul>
           </div>
-          <CenterCareProgram id="ha-aging-program" title="리셋 에이징"
+          <CenterCareProgram id="ha-aging-program" title="다나은 에이징"
             intro="두피와 피부의 고민에 따라 검토하는 두 가지 대표 구성입니다."
             items={copy.agingProgram}
             note="시술 적합성과 국내 적용 범위를 확인한 뒤 치료를 결정합니다. 실제 시술 횟수와 간격, 약물 처방은 진찰 결과에 따라 조정합니다."/>
@@ -201,7 +201,7 @@ export default function HealthyAgingCenter() {
 
       <section id="follow-up" className="ro-process ro-band care-paper" aria-labelledby="ha-follow-up">
         <div className="ro-wrap">
-          <Heading id="ha-follow-up" label="RESET AGING" intro="현재의 기능과 피부·두피 고민을 나눠 살피고, 필요한 관리의 우선순위와 경과를 확인할 시점을 함께 정합니다.">리셋 에이징,<br/><em>평가와 경과를 연결합니다.</em></Heading>
+          <Heading id="ha-follow-up" label="DANAUN AGING" intro="현재의 기능과 피부·두피 고민을 나눠 살피고, 필요한 관리의 우선순위와 경과를 확인할 시점을 함께 정합니다.">다나은 에이징,<br/><em>평가와 경과를 연결합니다.</em></Heading>
           <ol className="ro-process-steps ro-process-sequence" data-ro-reveal>{copy.process.map(([title, body], i) => (
             <li key={title}><span className="ro-point" aria-hidden="true"/><small>0{i + 1}</small><h3>{title}</h3><p>{body}</p></li>
           ))}</ol>

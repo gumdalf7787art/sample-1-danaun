@@ -10,7 +10,7 @@ export default function InsightShell({section, article, heroLinks = [], showHero
   const title = article?.title || section?.name || '다나은 인사이트';
   const sectionPath = section ? '/insights/' + section.id : '/insights';
   const path = article?.path || sectionPath;
-  const label = section?.en || 'RESET INSIGHTS';
+  const label = section?.en || 'DANAUN INSIGHTS';
   const summary = article?.summary || section?.description || '건강 정보와 운동, 방송 자료부터 치료의 근거까지 한곳에서 살펴보세요.';
   const parent = article ? {name: section.name, path: sectionPath} : section ? {name:'다나은 인사이트', path:'/insights'} : undefined;
   return (

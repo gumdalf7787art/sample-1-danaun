@@ -2,7 +2,7 @@
 
 import {useEffect, useId, useRef} from 'react';
 
-export default function YouTubeDialog({video, onClose, label = 'DOCTOR GOEUN TV'}) {
+export default function YouTubeDialog({video, onClose, label = '외부 건강 영상'}) {
   const dialog = useRef(null);
   const titleId = useId();
 

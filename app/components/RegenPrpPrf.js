@@ -155,7 +155,7 @@ export default function RegenPrpPrf() {
           </div>
         </section>
 
-        <Band id="reset-approach" label="THE RESET APPROACH" title={<>지금의 상태를 살피고,<br/><em>돌아가고 싶은 일상을 함께 봅니다.</em></>}>
+        <Band id="reset-approach" label="THE DANAUN APPROACH" title={<>지금의 상태를 살피고,<br/><em>돌아가고 싶은 일상을 함께 봅니다.</em></>}>
           <div className="ro-split rp-split rp-aligned-split">
             <Photo name="regen-ultrasound-focus-1120.webp" alt="무릎 주변 조직을 초음파로 살피는 장면"/>
             <Rows items={approach}/>
@@ -300,7 +300,7 @@ export default function RegenPrpPrf() {
           <p className="rp-note">횟수와 간격은 치료 종류와 상태에 따라 달라집니다. <Cite ids={['R1','R3']}/></p>
         </Band>
 
-        <Band id="rehabilitation" label="RESET 4 PRINCIPLES" tone="rp-dark" title={<>치료 이후의 움직임까지,<br/><em>다나은의 네 가지 관점으로.</em></>}>
+        <Band id="rehabilitation" label="DANAUN 4 PRINCIPLES" tone="rp-dark" title={<>치료 이후의 움직임까지,<br/><em>다나은의 네 가지 관점으로.</em></>}>
           <div className="ro-split rp-split rp-aligned-split">
             <Photo name="hero-recovery.webp" alt="움직임과 재활을 살피는 장면"/>
             <Rows items={rehab}/>

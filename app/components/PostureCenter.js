@@ -115,7 +115,7 @@ export default function PostureCenter() {
           <div className="care-links">
             <a className="ro-link" href="#treatment">치료 선택 과정 보기 <span aria-hidden="true">↓</span></a>
             <a className="ro-link" href="#referral">보조기·전문기관 의뢰 기준 <span aria-hidden="true">↓</span></a>
-            <Link href="/about/doctor#book">샘플 의료진 저서 『골반리셋클리닉』</Link>
+            <Link href="/diagnosis/alignment">체형 분석 안내</Link>
           </div>
         </div>
       </section>
@@ -153,7 +153,7 @@ export default function PostureCenter() {
 
       <section id="assessment" className="ro-precision ro-band" aria-labelledby="pc-assessment">
         <div className="ro-wrap">
-          <Heading id="pc-assessment" label="PRECISION FIRST" intro={copy.assessLead}>리셋은 구조·증상·움직임을<br/><em>함께 평가합니다.</em></Heading>
+          <Heading id="pc-assessment" label="PRECISION FIRST" intro={copy.assessLead}>다나은은 구조·증상·움직임을<br/><em>함께 평가합니다.</em></Heading>
           <div className="ro-split rp-split rp-aligned-split">
             <Photo name="assessment" alt="의료진이 서 있는 사람의 어깨와 몸통 정렬을 관찰하는 모습"/>
             <Rows items={copy.assessment}/>

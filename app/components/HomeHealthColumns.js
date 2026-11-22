@@ -38,7 +38,7 @@ export default function HomeHealthColumns({posts}) {
       <div className="section">
         <div className="section-top home-media-heading">
           <div>
-            <p className="eyebrow">RESET INSIGHTS</p>
+            <p className="eyebrow">DANAUN INSIGHTS</p>
             <h2 id="home-health-columns-title">건강 칼럼</h2>
           </div>
           <p className="section-intro">몸과 치료를 이해하는 데 도움이 되는 글을 만나보세요.</p>

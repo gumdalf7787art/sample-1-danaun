@@ -78,7 +78,7 @@ export default function UltrasoundDiagnosis() {
             <h2 id="us-overview" data-ro-title>치료보다 먼저, <span>통증이 시작되는 곳을 찾습니다</span></h2>
             <p data-ro-reveal>같은 통증도 원인은 사람마다 다릅니다.</p>
             <p data-ro-reveal>근골격계 초음파는 음파를 이용해 힘줄·인대·근육과 관절 주변 연부조직을 관찰하는 검사입니다.</p>
-            <p data-ro-reveal>리셋은 진찰과 초음파, 움직임 평가를 함께 보고 치료 순서를 정합니다.</p>
+            <p data-ro-reveal>다나은은 진찰과 초음파, 움직임 평가를 함께 보고 치료 순서를 정합니다.</p>
           </div>
           <ul className="us-features" aria-label="근골격계 초음파의 특징">{copy.features.map(([title, body], i) => (
             <li key={title} data-ro-reveal data-ro-reveal-delay={i * 85}><strong>{title}</strong><p>{body}</p></li>
@@ -106,7 +106,7 @@ export default function UltrasoundDiagnosis() {
 
       <section id="assessment" className="ro-band" aria-labelledby="us-assessment">
         <div className="ro-wrap">
-          <Heading id="us-assessment" label="THE RESET ASSESSMENT">검사의 시작은,<br/><em>환자의 증상과 진찰입니다.</em></Heading>
+          <Heading id="us-assessment" label="THE DANAUN ASSESSMENT">검사의 시작은,<br/><em>환자의 증상과 진찰입니다.</em></Heading>
           <div className="us-split">
             <Photo name="assessment" alt="어깨에 초음파 탐촉자를 대고 화면을 확인하는 검사 예시"/>
             <Rows items={copy.assessment}/>

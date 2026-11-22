@@ -74,7 +74,7 @@ export function StudyExplainer({study, record, embedded = false}) {
         </div>
         {record?.pdf && <p className="study-license">{record.pdf.credit} · <a href={record.pdf.license.href}>{record.pdf.license.name}</a></p>}
         {record?.citations.length > 0 && <div className="study-related">
-          <h4>이 논문을 인용한 리셋 페이지</h4>
+          <h4>이 논문을 인용한 다나은 페이지</h4>
           <ul>{record.citations.map(({href, name}) => <li key={href}><a href={href}>{name} ↗</a></li>)}</ul>
         </div>}
         {!embedded && <a className="ro-link" href={researchPath + '#reading-guide'}>전체 근거 자료 보기 <span aria-hidden="true">↗</span></a>}

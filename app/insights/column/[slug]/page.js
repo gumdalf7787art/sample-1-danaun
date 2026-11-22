@@ -23,7 +23,7 @@ async function getColumn(slug) {
 
 export async function generateMetadata({params}) {
   const post = await getColumn((await params).slug);
-  return pageMeta(insightPostPath(post), post.title + ' | 리셋 건강칼럼', post.summary, {
+  return pageMeta(insightPostPath(post), post.title + ' | 다나은 건강칼럼', post.summary, {
     type:'article', publishedTime:post.publishedAt, modifiedTime:post.updatedAt,
   });
 }

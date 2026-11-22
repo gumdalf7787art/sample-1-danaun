@@ -87,7 +87,7 @@ export default function SportsCenter() {
             <img src="/images/sports-center-hero.webp" alt="" fetchPriority="high"/>
           </picture>
           <div className="ro-hero-content">
-            <p className="ro-label" lang="en">RESET SPORTS</p>
+            <p className="ro-label" lang="en">DANAUN SPORTS</p>
             <p className="ro-hero-sub">다나은재활의학과 · 손상 평가와 운동 재활</p>
             <h1 id="sports-title"><em>스포츠손상 센터</em></h1>
             <p>다시 뛰기 위해, 손상된 조직과 움직임을 함께 봅니다.<br/>현재의 상태와 돌아가고 싶은 운동에 맞춰 치료와 재활을 계획합니다.</p>
@@ -112,7 +112,7 @@ export default function SportsCenter() {
                 {injuryTargets.map(target => <li key={target}>{target}</li>)}
               </ul>
             </div>
-            <CenterCareProgram id="sports-recovery-program-title" title="리셋 리커버리" duration="8주"
+            <CenterCareProgram id="sports-recovery-program-title" title="다나은 리커버리" duration="8주"
               intro="손상 평가부터 1:1 운동치료와 복귀 테스트까지 이어지는 스포츠손상 재활 프로그램입니다."
               items={[['초음파 진단', '2회'], ['재생주사', '1~3회'], ['1:1 운동치료', '8회'], ['복귀 테스트', '복귀 준비도 평가']]}
               note="위 횟수는 대표 구성입니다. 주사 시행 여부와 치료 일정은 진찰 결과에 따라 조정하며, 운동 복귀 시점은 테스트와 회복 경과를 바탕으로 판단합니다."/>
@@ -229,8 +229,8 @@ export default function SportsCenter() {
 
         <section className="ro-process ro-band" id="recovery" aria-labelledby="recovery-title">
           <div className="ro-wrap">
-            <Heading id="recovery-title" label="RESET RECOVERY" description="손상 상태와 경과에 따라 여러 단계를 병행하거나 이전 단계로 돌아가 계획을 조정할 수 있습니다.">
-              리셋 리커버리,<br/><em>평가에서 활동 복귀까지.</em>
+            <Heading id="recovery-title" label="DANAUN RECOVERY" description="손상 상태와 경과에 따라 여러 단계를 병행하거나 이전 단계로 돌아가 계획을 조정할 수 있습니다.">
+              다나은 리커버리,<br/><em>평가에서 활동 복귀까지.</em>
             </Heading>
             <ol className="ro-process-steps ro-process-sequence" data-ro-reveal>
               {recovery.map(([title, body], index) => (
@@ -242,7 +242,7 @@ export default function SportsCenter() {
             </ol>
             <div className="ro-followup">
               <h3>다시 할 수 있는 움직임을 확인합니다.</h3>
-              <p>리셋 리커버리는 평가, 치료와 재활, 복귀 검토를 연결하는 진료 과정입니다. 방문 간격과 치료 기간은 손상 상태와 회복 경과에 따라 정합니다.</p>
+              <p>다나은 리커버리는 평가, 치료와 재활, 복귀 검토를 연결하는 진료 과정입니다. 방문 간격과 치료 기간은 손상 상태와 회복 경과에 따라 정합니다.</p>
             </div>
           </div>
         </section>
@@ -275,7 +275,7 @@ export default function SportsCenter() {
 
         <section className="ro-band rp-dark sports-clinic" id="clinic" aria-labelledby="clinic-title">
           <div className="ro-wrap sports-clinic-layout">
-            <Heading id="clinic-title" label="THE RESET APPROACH">
+            <Heading id="clinic-title" label="THE DANAUN APPROACH">
               재활의학과의 관점으로,<br/><em>손상 이후의 움직임까지 살핍니다.</em>
             </Heading>
             <figure className="sports-clinic-portrait" data-ro-reveal="right" data-ro-reveal-delay={0}>

@@ -3,11 +3,11 @@ import {useState} from 'react';
 import dynamic from 'next/dynamic';
 const YouTubeDialog = dynamic(() => import('./YouTubeDialog'), {ssr:false});
 import YouTubeThumbnail from './YouTubeThumbnail';
-import {CHANNEL_URL, DOCTOR_TV_ARCHIVE_SIZE} from '../../lib/youtube-feed.mjs';
+import {CHANNEL_NAME, CHANNEL_URL, CHANNEL_VIDEO_LIMIT} from '../../lib/youtube-feed.mjs';
 
 export default function YouTubeShowcase({feed = {videos: []}, archive = false, expanded = false, showArchiveLink = true}) {
   const [selected, setSelected] = useState(null);
-  const [latest, ...recent] = (feed.videos || []).filter(video => !video.short).slice(0, expanded ? DOCTOR_TV_ARCHIVE_SIZE : 5);
+  const [latest, ...recent] = (feed.videos || []).filter(video => !video.short).slice(0, expanded ? CHANNEL_VIDEO_LIMIT : 5);
 
   function card(video, featured = false) {
     return (
@@ -17,7 +17,7 @@ export default function YouTubeShowcase({feed = {videos: []}, archive = false, e
           <YouTubeThumbnail id={video.id} large={featured}/>
           <span className="yt-play" aria-hidden="true">▷</span>
         </span>
-        {archive && <span className="ins-tv-card-title">{video.title} <small>{video.duration}</small></span>}
+        {archive && <span className="ins-tv-card-title">{video.title} {video.duration && <small>{video.duration}</small>}</span>}
       </button>
     );
   }
@@ -25,15 +25,15 @@ export default function YouTubeShowcase({feed = {videos: []}, archive = false, e
   return (
     <section className={'home-tv youtube-showcase' + (expanded ? ' yt-expanded' : '')} id="doctor-tv"
       data-feed-checked-at={feed.checkedAt}
-      aria-labelledby={archive ? undefined : 'home-tv-title'} aria-label={archive ? '외부 건강 영상 영상' : undefined}>
+      aria-labelledby={archive ? undefined : 'home-tv-title'} aria-label={archive ? '외부 건강 영상' : undefined}>
       <div className="section">
         {!archive && <div className="section-top home-media-heading">
           <div><p className="eyebrow">WATCH & UNDERSTAND</p><h2 id="home-tv-title">외부 건강 영상</h2></div>
-          <p className="section-intro">외부 채널 닥터고은 TV에서 공개한 건강 영상입니다.</p>
+          <p className="section-intro">{CHANNEL_NAME}에서 공개한 재활·건강 영상입니다.</p>
         </div>}
         {latest ? <div className="yt-gallery">
           {expanded ? <div className="yt-featured-video">
-            <h2>최신 영상</h2>
+            <h2>{feed.checkedAt ? '최신 영상' : '대표 영상'}</h2>
             {card(latest, true)}
           </div> : card(latest, true)}
           {recent.length > 0 && <div className="yt-recent">{recent.map(video => card(video))}</div>}
@@ -41,12 +41,12 @@ export default function YouTubeShowcase({feed = {videos: []}, archive = false, e
         <div className="yt-footer">
           {!archive && showArchiveLink && <a href="/insights/tv" className="underline-link">외부 건강 영상 모아보기 <span aria-hidden="true">↗</span></a>}
           <a href={CHANNEL_URL + '/videos'} target="_blank" rel="noopener noreferrer" className="underline-link yt-channel-link">
-            더 많은 영상 보기 <span aria-hidden="true">↗</span>
+            {CHANNEL_NAME} 영상 더 보기 <span aria-hidden="true">↗</span>
           </a>
           <p>영상은 일반적인 건강 정보이며 개인의 진단과 치료를 대신하지 않습니다.</p>
         </div>
       </div>
-      {selected && <YouTubeDialog video={selected} onClose={() => setSelected(null)}/>}
+      {selected && <YouTubeDialog video={selected} label={CHANNEL_NAME} onClose={() => setSelected(null)}/>}
     </section>
   );
 }

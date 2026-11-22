@@ -52,22 +52,22 @@ const principleStages = [
 
 const programs = [
   {
-    name: '리셋 리커버리', duration: '8주', center: '스포츠손상 센터',
+    name: '다나은 리커버리', duration: '8주', center: '스포츠손상 센터',
     detail: '손상 평가부터 1:1 운동치료와 복귀 테스트까지 이어집니다. 재생주사는 필요한 경우 검토합니다.',
     href: '/centers/sports#sports-recovery-program-title', image: 'center-care-1.webp',
   },
   {
-    name: '리셋 조인트', duration: '12주', center: '퇴행성 관절염 센터',
+    name: '다나은 조인트', duration: '12주', center: '퇴행성 관절염 센터',
     detail: '무릎 관절염 평가와 근력 운동치료, 12주 재평가를 연결합니다. PRP는 대상 기준을 충족할 때 검토합니다.',
     href: '/centers/osteoarthritis#oa-joint-program', image: 'center-care-2.webp',
   },
   {
-    name: '리셋 케어', center: '유방암 재활 센터',
+    name: '다나은 케어', center: '유방암 재활 센터',
     detail: '수술 후 어깨 움직임과 부종, 근력·체력 회복을 함께 살핍니다. 치료 중에는 종양 주치의와 협진하며 급여·산정특례 적용 범위를 확인합니다.',
     href: '/centers/breast-cancer-rehab#br-reset-care', image: 'center-care-4.webp',
   },
   {
-    name: '리셋 에이징', center: '항노화·피부·두피 센터',
+    name: '다나은 에이징', center: '항노화·피부·두피 센터',
     detail: '피부결·탄력과 두피·모발 고민을 살피고, 진찰 결과에 맞춰 필요한 관리 방법을 검토합니다.',
     href: '/centers/healthy-aging#ha-aging-program', image: 'center-care-6.webp',
   },
@@ -75,7 +75,7 @@ const programs = [
 
 export default function PrinciplesPage() {
   return (
-    <AboutDetail path={path} title={title} label="RESET PRINCIPLES" summary={summary}
+    <AboutDetail path={path} title={title} label="DANAUN PRINCIPLES" summary={summary}
       image="/images/hero-regen-depth.webp">
       <div className="principles-detail">
         <ResetBrandMeaning/>
@@ -83,7 +83,7 @@ export default function PrinciplesPage() {
         <section className="ro-band pd-standards" id="care-principles" aria-labelledby="pd-standards-title">
           <div className="ro-wrap">
             <div className="ro-heading">
-              <h2 id="pd-standards-title" data-ro-title>리셋 <em>4원칙</em></h2>
+              <h2 id="pd-standards-title" data-ro-title>다나은 <em>4원칙</em></h2>
             </div>
             <div className="pd-standards-layout">
               <ol className="pd-standard-grid" role="list">
